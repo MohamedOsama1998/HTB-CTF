@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Mon Sep 12 22:39:20 2022 as: nmap -sV -sC -p- -v -oN scan.nmap 10.129.200.97
+Increasing send delay for 10.129.200.97 from 0 to 5 due to 62 out of 205 dropped probes since last increase.
+Nmap scan report for 10.129.200.97
+Host is up (0.19s latency).
+Not shown: 65534 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Linux telnetd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 12 22:48:47 2022 -- 1 IP address (1 host up) scanned in 566.72 seconds
