@@ -4,7 +4,7 @@
 
 ### Completed challenges:
 
-- [] Tier 0
+- [] **Tier 0**
 	- [] Meow
 	- [] Fawn
 	- [] Dancing
@@ -12,7 +12,7 @@
 	- [] Explosion
 	- [] Preignition
 
-- [] Tier 1
+- [] **Tier 1**
 	- [] Appointment
 	- [] Sequel
 	- [] Crocodile
@@ -23,7 +23,7 @@
 	- [] Pennyworth
 	- [] Tactics
 
-- [] Tier 3 
+- [] **Tier 3** 
 	- [] Archetype
 	- [] Oopsie
 	- [] Vaccine
