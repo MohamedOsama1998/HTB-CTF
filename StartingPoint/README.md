@@ -6,7 +6,7 @@
 
 - [ ] **Tier 0**
 	- [x] Meow
-	- [ ] Fawn
+	- [x] Fawn
 	- [ ] Dancing
 	- [ ] Redeemer
 	- [ ] Explosion

@@ -77,7 +77,13 @@ root@Meow:~#
 
 ## Tasks & Answers
 
-**Task 1**: What does the acronym VM stand for?
+<details>
+    <summary><b>Task 1</b>: What does the acronym VM stand for?</summary>
+
+    Virtual Machine
+</details>
+
+
 > Virtual Machine
 
 **Task 2**: What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.
