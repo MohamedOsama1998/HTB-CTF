@@ -100,6 +100,8 @@ To connect to the RDP server I used `xfreerdp`:
 
 and I'm in! I got an instance of the target machine running in a GUI window with `flag.txt` file on the Desktop:
 
+![RDP Connection](https://imgur.com/gX10TLo.png)
+
 ---
 
 ## Blue Team Suggestions

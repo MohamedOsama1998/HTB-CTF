@@ -2,14 +2,14 @@
 
 ---
 
-### Completed challenges:
+## Completed challenges:
 
 - [ ] **Tier 0**
 	- [x] Meow
 	- [x] Fawn
 	- [ ] Dancing
 	- [ ] Redeemer
-	- [ ] Explosion
+	- [x] Explosion
 	- [ ] Preignition
 
 - [ ] **Tier 1**
