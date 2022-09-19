@@ -10,7 +10,7 @@
 	- [ ] Dancing
 	- [ ] Redeemer
 	- [x] Explosion
-	- [ ] Preignition
+	- [x] Preignition
 
 - [ ] **Tier 1**
 	- [ ] Appointment

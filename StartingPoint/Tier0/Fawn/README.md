@@ -6,16 +6,16 @@
 
 After connecting to the VPN and spawning the machine, I always store the IP address of the target machine in an environment variable in case I lose it.
 
-```
-$ export IP=10.129.188.254
-$ echo $IP
+```shell
+└─$ export IP=10.129.188.254
+└─$ echo $IP
 10.129.188.254
 ```
 
 To make sure that the target machine is up and running, we can use the command `ping` to test our connection
 
-```
-$ ping $IP
+```shell
+└─$ ping $IP
 PING 10.129.188.254 (10.129.188.254) 56(84) bytes of data.
 64 bytes from 10.129.188.254: icmp_seq=1 ttl=63 time=132 ms
 64 bytes from 10.129.188.254: icmp_seq=2 ttl=63 time=67.0 ms
@@ -35,13 +35,13 @@ First, I run a scan on the target machine to identify open ports and running ser
 `-v`: Verbose output for more information about the scan
 `-oN`: Write the output of the scan into a file
 
-```
-$ nmap -sV -sC -p- -v -oN scan.nmap $IP
+```shell
+└─$ nmap -sV -sC -p- -v -oN scan.nmap $IP
 ```
 
 After the scan is complete, port 21 was found to be running FTP service that allows anonymous login with no password according to the scan result:
 
-```
+```shell
 Nmap scan report for 10.129.188.254
 Host is up (0.23s latency).
 Not shown: 65534 closed tcp ports (conn-refused)
@@ -74,8 +74,8 @@ FTP "[File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protoc
 
 We can start by trying to connect to the FTP server with anonymous username and no password by using the format `[ftp://[USER[:PASSWORD]@]HOST[:PORT]/PATH[/][;type=TYPE]]` and see what comes out.
 
-```
-$ ftp ftp://anonymous@$IP           
+```shell
+└─$ ftp ftp://anonymous@$IP           
 Connected to 10.129.188.254.
 220 (vsFTPd 3.0.3)
 331 Please specify the password.
@@ -89,7 +89,7 @@ ftp>
 
 and we're in! now we start to navigate in the directories and see if we find somethin interesting, and right off the bat after using `ls` we immediately see the file we're interested in `flag.txt` with our guest (anonymous) privs. Now we can download this file to our local machine simply by using the command `get` and then disconnect from the server by using the fancy `bye` command
 
-```
+```shell
 ftp> ls
 229 Entering Extended Passive Mode (|||43051|)
 150 Here comes the directory listing.
@@ -114,75 +114,44 @@ Also it is safer to encrypt the contents of the FTP server and secure it with SS
 
 ## Tasks & Answers
 
-<details>
-    <summary><b>Task 1: </b>What does the 3-letter acronym FTP stand for?</summary>
+**Task 1**: What does the 3-letter acronym FTP stand for?
+> File Transfer Protocol
 
-    File Transfer Protocol
-</details>
+**Task 2**: Which port does the FTP service listen on usually?
+> 21
 
-<details>
-    <summary><b>Task 2: </b>Which port does the FTP service listen on usually?</summary>
+**Task 3**: What acronym is used for the secure version of FTP?
+> SFTP
 
-    21
-</details>
+**Task 4**: What is the command we can use to send an ICMP echo request to test our connection to the target?
+> ping
 
-<details>
-    <summary><b>Task 3: </b>What acronym is used for the secure version of FTP?</summary>
+**Task 5**: From your scans, what version is FTP running on the target?
+> vsftpd 3.0.3
 
-    SFTP
-</details>
+**Task 6**: From your scans, what OS type is running on the target?
+> Unix
 
+**Task 7**: What is the command we need to run in order to display the 'ftp' client help menu?
+> ftp -h
 
-<details>
-    <summary><b>Task 4: </b>What is the command we can use to send an ICMP echo request to test our connection to the target?</summary>
+**Task 8**: What is username that is used over FTP when you want to log in without having an account?
+> anonymous
 
-    ping
-</details>
+**Task 9**: What is the response code we get for the FTP message 'Login successful'?
+> 230
 
-<details>
-    <summary><b>Task 5: </b>From your scans, what version is FTP running on the target?</summary>
+**Task 10**: There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files on a Linux system. 
+> ls
 
-    3.0.3
-</details>
+**Task 11**: What is the command used to download the file we found on the FTP server?
+> get
 
-<details>
-    <summary><b>Task 6: </b>From your scans, what OS type is running on the target?</summary>
+**FLAG**:
+> *******************************5
 
-    Unix
-</details>
+---
 
-<details>
-    <summary><b>Task 7: </b>What is the command we need to run in order to display the 'ftp' client help menu?</summary>
+## Blue Team Suggestions
 
-    ftp -h
-</details>
-
-<details>
-    <summary><b>Task 8: </b>What is username that is used over FTP when you want to log in without having an account?</summary>
-
-    anonymous
-</details>
-
-<details>
-    <summary><b>Task 9: </b>What is the response code we get for the FTP message 'Login successful'?</summary>
-
-    230
-</details>
-
-<details>
-    <summary><b>Task 10: </b>There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files on a Linux system.</summary>
-
-    ls
-</details>
-
-<details>
-    <summary><b>Task 11: </b>What is the command used to download the file we found on the FTP server?</summary>
-
-    get
-</details>
-
-<details>
-    <summary><b>FLAG:</b></summary>
-
-    035db21c881520061c53e0536e44f815
-</details>
+- Simply do not allow access to sensitive files and data to anonymous logins on FTP servers.
