@@ -1,0 +1,16 @@
+# Nmap 7.92 scan initiated Mon Sep 19 06:32:57 2022 as: nmap -sV -sC -v -Pn -p- -oN scan.nmap 10.10.10.95
+Nmap scan report for 10.10.10.95
+Host is up (0.079s latency).
+Not shown: 65534 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+|_http-title: Apache Tomcat/7.0.88
+|_http-favicon: Apache Tomcat
+|_http-open-proxy: Proxy might be redirecting requests
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache-Coyote/1.1
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 19 06:38:45 2022 -- 1 IP address (1 host up) scanned in 348.01 seconds
