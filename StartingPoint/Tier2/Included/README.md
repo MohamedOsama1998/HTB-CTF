@@ -70,10 +70,10 @@ so that's a perfect way to execute a payload that I upload in some other way. Al
 
 TFTP was the perfect way to upload a payload on the web server, I tried connecting using `tftp` in the terminal and I was in! so the steps to gain RCE on the target machine are as following:
 
-1- Upload the payload
-2- Start a listener
-3- Execute the payload
-4- Bingo
+1. Upload the payload
+2. Start a listener
+3. Execute the payload
+4. Bingo
 
 So I started by getting the payload ready, I used [revshells](https://www.revshells.com/) and saved it to `payload.php` after modifying the `LPORT` to 1337 and `LHOST` to my tun0 IP.
 
@@ -235,5 +235,39 @@ root
 ```
 
 I navigated through the image file system to `/mnt/root/root` and got the root flag.
+
+---
+
+## Tasks & Answers
+
+**Task 1**: What service is running on the target machine over UDP?
+> tftp
+
+**Task 2**: What class of vulnerability is the webpage that is hosted on port 80 vulnerable to?
+> Local File Inclusion
+
+**Task 3**: What is the default system folder that TFTP uses to store files?
+> /var/lib/tftpboot/
+
+**Task 4**: Which interesting file is located in the web server folder and can be used for Lateral Movement?
+> .htpasswd
+
+**Task 5**: What is the group that user Mike is a part of and can be exploited for Privilege Escalation?
+> lxd
+
+**Task 6**: When using an image to exploit a system via containers, we look for a very small distribution. Our favorite for this task is named after mountains. What is that distribution name?
+> Alpine
+
+**Task 7**: What flag do we set to the container so that it has root privileges on the host system?
+> security.privileged=true
+
+**Task 8**: If the root filesystem is mounted at /mnt in the container, where can the root flag be found on the container after the host system is mounted?
+> /mnt/root/
+
+**User Flag**: 
+> *******************************1
+
+**Root Flag**: 
+> *******************************f
 
 ---

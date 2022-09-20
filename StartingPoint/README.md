@@ -28,6 +28,6 @@
 	- [ ] Oopsie
 	- [ ] Vaccine
 	- [ ] Unified
-	- [ ] Included
-	- [ ] Markup
+	- [x] Included
+	- [x] Markup
 	- [ ] Base
