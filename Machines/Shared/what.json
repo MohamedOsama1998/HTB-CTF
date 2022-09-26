@@ -1,0 +1,837 @@
+{
+  "rendered_products_top": "<div id=\"js-product-list-top\" class=\"row products-selection\">\n  <div class=\"col-md-6 hidden-sm-down total-products\">\n          <p>There are 8 products.</p>\n      </div>\n  <div class=\"col-md-6\">\n    <div class=\"row sort-by-row\">\n\n      \n        <span class=\"col-sm-3 col-md-3 hidden-sm-down sort-by\">Sort by:</span>\n<div class=\"col-sm-12 col-xs-12 col-md-9 products-sort-order dropdown\">\n  <button\n    class=\"btn-unstyle select-title\"\n    rel=\"nofollow\"\n    data-toggle=\"dropdown\"\n    aria-label=\"Sort by selection\"\n    aria-haspopup=\"true\"\n    aria-expanded=\"false\">\n    Select    <i class=\"material-icons float-xs-right\">&#xE5C5;</i>\n  </button>\n  <div class=\"dropdown-menu\">\n          <a\n        rel=\"nofollow\"\n        href=\"https://shared.htb/index.php?controller=search&amp;order=product.position.asc\"\n        class=\"select-list js-search-link\"\n      >\n        Relevance\n      </a>\n          <a\n        rel=\"nofollow\"\n        href=\"https://shared.htb/index.php?controller=search&amp;order=product.name.asc\"\n        class=\"select-list js-search-link\"\n      >\n        Name, A to Z\n      </a>\n          <a\n        rel=\"nofollow\"\n        href=\"https://shared.htb/index.php?controller=search&amp;order=product.name.desc\"\n        class=\"select-list js-search-link\"\n      >\n        Name, Z to A\n      </a>\n          <a\n        rel=\"nofollow\"\n        href=\"https://shared.htb/index.php?controller=search&amp;order=product.price.asc\"\n        class=\"select-list js-search-link\"\n      >\n        Price, low to high\n      </a>\n          <a\n        rel=\"nofollow\"\n        href=\"https://shared.htb/index.php?controller=search&amp;order=product.price.desc\"\n        class=\"select-list js-search-link\"\n      >\n        Price, high to low\n      </a>\n      </div>\n</div>\n      \n\n          </div>\n  </div>\n  <div class=\"col-sm-12 hidden-md-up text-sm-center showing\">\n    Showing 1-8 of 8 item(s)\n  </div>\n</div>\n",
+  "rendered_products": "<div id=\"js-product-list\">\n  \n<div class=\"products row\">\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"1\" data-id-product-attribute=\"1\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-size-s/8-color-white\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/1/1-home_default.jpg\"\n                alt=\"Hummingbird printed t-shirt\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/1/1-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                          <div class=\"variant-links\">\n      <a href=\"https://shared.htb/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-size-s/8-color-white\"\n       class=\"color\"\n       title=\"White\"\n       aria-label=\"White\"\n       style=\"background-color: #ffffff\"     ></a>\n      <a href=\"https://shared.htb/index.php?id_product=1&amp;id_product_attribute=2&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-size-s/11-color-black\"\n       class=\"color\"\n       title=\"Black\"\n       aria-label=\"Black\"\n       style=\"background-color: #434A54\"     ></a>\n    <span class=\"js-count count\"></span>\n</div>\n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-size-s/8-color-white\" content=\"https://shared.htb/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-size-s/8-color-white\">Hummingbird printed t-shirt</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n                              \n\n                <span class=\"regular-price\" aria-label=\"Regular price\">$23.90</span>\n                                  <span class=\"discount-percentage discount-product\">-20%</span>\n                              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $19.12\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"1\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n                    <li class=\"product-flag discount\">-20%</li>\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"9\" data-id-product-attribute=\"22\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=9&amp;id_product_attribute=22&amp;rewrite=mountain-fox-cushion&amp;controller=product#/8-color-white\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/9/9-home_default.jpg\"\n                alt=\"Mountain fox cushion\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/9/9-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                          <div class=\"variant-links\">\n      <a href=\"https://shared.htb/index.php?id_product=9&amp;id_product_attribute=22&amp;rewrite=mountain-fox-cushion&amp;controller=product#/8-color-white\"\n       class=\"color\"\n       title=\"White\"\n       aria-label=\"White\"\n       style=\"background-color: #ffffff\"     ></a>\n      <a href=\"https://shared.htb/index.php?id_product=9&amp;id_product_attribute=23&amp;rewrite=mountain-fox-cushion&amp;controller=product#/11-color-black\"\n       class=\"color\"\n       title=\"Black\"\n       aria-label=\"Black\"\n       style=\"background-color: #434A54\"     ></a>\n    <span class=\"js-count count\"></span>\n</div>\n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=9&amp;id_product_attribute=22&amp;rewrite=mountain-fox-cushion&amp;controller=product#/8-color-white\" content=\"https://shared.htb/index.php?id_product=9&amp;id_product_attribute=22&amp;rewrite=mountain-fox-cushion&amp;controller=product#/8-color-white\">Mountain fox cushion</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $18.90\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"9\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"10\" data-id-product-attribute=\"24\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=10&amp;id_product_attribute=24&amp;rewrite=brown-bear-cushion&amp;controller=product#/8-color-white\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/1/1/11-home_default.jpg\"\n                alt=\"Brown bear cushion\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/1/1/11-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                          <div class=\"variant-links\">\n      <a href=\"https://shared.htb/index.php?id_product=10&amp;id_product_attribute=24&amp;rewrite=brown-bear-cushion&amp;controller=product#/8-color-white\"\n       class=\"color\"\n       title=\"White\"\n       aria-label=\"White\"\n       style=\"background-color: #ffffff\"     ></a>\n      <a href=\"https://shared.htb/index.php?id_product=10&amp;id_product_attribute=25&amp;rewrite=brown-bear-cushion&amp;controller=product#/11-color-black\"\n       class=\"color\"\n       title=\"Black\"\n       aria-label=\"Black\"\n       style=\"background-color: #434A54\"     ></a>\n    <span class=\"js-count count\"></span>\n</div>\n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=10&amp;id_product_attribute=24&amp;rewrite=brown-bear-cushion&amp;controller=product#/8-color-white\" content=\"https://shared.htb/index.php?id_product=10&amp;id_product_attribute=24&amp;rewrite=brown-bear-cushion&amp;controller=product#/8-color-white\">Brown bear cushion</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $18.90\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"10\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"11\" data-id-product-attribute=\"26\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=11&amp;id_product_attribute=26&amp;rewrite=hummingbird-cushion&amp;controller=product#/8-color-white\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/1/3/13-home_default.jpg\"\n                alt=\"Hummingbird cushion\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/1/3/13-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                          <div class=\"variant-links\">\n      <a href=\"https://shared.htb/index.php?id_product=11&amp;id_product_attribute=26&amp;rewrite=hummingbird-cushion&amp;controller=product#/8-color-white\"\n       class=\"color\"\n       title=\"White\"\n       aria-label=\"White\"\n       style=\"background-color: #ffffff\"     ></a>\n      <a href=\"https://shared.htb/index.php?id_product=11&amp;id_product_attribute=27&amp;rewrite=hummingbird-cushion&amp;controller=product#/11-color-black\"\n       class=\"color\"\n       title=\"Black\"\n       aria-label=\"Black\"\n       style=\"background-color: #434A54\"     ></a>\n    <span class=\"js-count count\"></span>\n</div>\n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=11&amp;id_product_attribute=26&amp;rewrite=hummingbird-cushion&amp;controller=product#/8-color-white\" content=\"https://shared.htb/index.php?id_product=11&amp;id_product_attribute=26&amp;rewrite=hummingbird-cushion&amp;controller=product#/8-color-white\">Hummingbird cushion</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $18.90\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"11\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"6\" data-id-product-attribute=\"0\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=6&amp;rewrite=mug-the-best-is-yet-to-come&amp;controller=product\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/6/6-home_default.jpg\"\n                alt=\"Mug The best is yet to come\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/6/6-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations no-variants\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=6&amp;rewrite=mug-the-best-is-yet-to-come&amp;controller=product\" content=\"https://shared.htb/index.php?id_product=6&amp;rewrite=mug-the-best-is-yet-to-come&amp;controller=product\">Mug The best is yet to come</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $11.90\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"6\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"7\" data-id-product-attribute=\"0\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=7&amp;rewrite=mug-the-adventure-begins&amp;controller=product\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/7/7-home_default.jpg\"\n                alt=\"Mug The adventure begins\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/7/7-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations no-variants\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=7&amp;rewrite=mug-the-adventure-begins&amp;controller=product\" content=\"https://shared.htb/index.php?id_product=7&amp;rewrite=mug-the-adventure-begins&amp;controller=product\">Mug The adventure begins</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $11.90\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"7\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"8\" data-id-product-attribute=\"0\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=8&amp;rewrite=mug-today-is-a-good-day&amp;controller=product\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/8/8-home_default.jpg\"\n                alt=\"Mug Today is a good day\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/8/8-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations no-variants\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=8&amp;rewrite=mug-today-is-a-good-day&amp;controller=product\" content=\"https://shared.htb/index.php?id_product=8&amp;rewrite=mug-today-is-a-good-day&amp;controller=product\">Mug Today is a good day</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $11.90\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"8\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n            \n<div class=\"js-product product col-xs-6 col-xl-4\">\n  <article class=\"product-miniature js-product-miniature\" data-id-product=\"19\" data-id-product-attribute=\"0\">\n    <div class=\"thumbnail-container\">\n      <div class=\"thumbnail-top\">\n        \n                      <a href=\"https://shared.htb/index.php?id_product=19&amp;rewrite=customizable-mug&amp;controller=product\" class=\"thumbnail product-thumbnail\">\n              <img\n                src=\"https://shared.htb/img/p/2/2/22-home_default.jpg\"\n                alt=\"Customizable mug\"\n                loading=\"lazy\"\n                data-full-size-image-url=\"https://shared.htb/img/p/2/2/22-large_default.jpg\"\n                width=\"250\"\n                height=\"250\"\n              />\n            </a>\n                  \n\n        <div class=\"highlighted-informations no-variants\">\n          \n            <a class=\"quick-view js-quick-view\" href=\"#\" data-link-action=\"quickview\">\n              <i class=\"material-icons search\">&#xE8B6;</i> Quick view\n            </a>\n          \n\n          \n                      \n        </div>\n      </div>\n\n      <div class=\"product-description\">\n        \n                      <h2 class=\"h3 product-title\"><a href=\"https://shared.htb/index.php?id_product=19&amp;rewrite=customizable-mug&amp;controller=product\" content=\"https://shared.htb/index.php?id_product=19&amp;rewrite=customizable-mug&amp;controller=product\">Customizable mug</a></h2>\n                  \n\n        \n                      <div class=\"product-price-and-shipping\">\n              \n              \n\n              <span class=\"price\" aria-label=\"Price\">\n                                                  $13.90\n                              </span>\n\n              \n\n              \n            </div>\n                  \n\n        \n          \n<div class=\"product-list-reviews\" data-id=\"19\" data-url=\"https://shared.htb/index.php?fc=module&module=productcomments&controller=CommentGrade\">\n  <div class=\"grade-stars small-stars\"></div>\n  <div class=\"comments-nb\"></div>\n</div>\n\n\n        \n      </div>\n\n      \n    <ul class=\"product-flags js-product-flags\">\n            </ul>\n\n    </div>\n  </article>\n</div>\n\n    </div>\n\n  \n    <nav class=\"pagination\">\n  <div class=\"col-md-4\">\n    \n      Showing 1-8 of 8 item(s)\n    \n  </div>\n\n  <div class=\"col-md-6 offset-md-2 pr-0\">\n    \n         \n  </div>\n\n</nav>\n  \n\n  <div class=\"hidden-md-up text-xs-right up\">\n    <a href=\"#header\" class=\"btn btn-secondary\">\n      Back to top\n      <i class=\"material-icons\">&#xE316;</i>\n    </a>\n  </div>\n</div>\n",
+  "rendered_products_bottom": "<div id=\"js-product-list-bottom\"></div>\n",
+  "result": {},
+  "label": "Search results",
+  "products": [
+    {
+      "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=1&id_product_attribute=1&token=e364484c852be39174222cdda6902f85",
+      "url": "https://shared.htb/index.php?id_product=1&id_product_attribute=1&rewrite=hummingbird-printed-t-shirt&controller=product#/1-size-s/8-color-white",
+      "canonical_url": "https://shared.htb/index.php?id_product=1&rewrite=hummingbird-printed-t-shirt&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [
+        {
+          "id_product_attribute": 1,
+          "texture": "",
+          "id_product": "1",
+          "name": "White",
+          "id_attribute": "8",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=1&id_product_attribute=1&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=1&id_product_attribute=1&rewrite=hummingbird-printed-t-shirt&controller=product#/1-size-s/8-color-white",
+          "type": "color",
+          "html_color_code": "#ffffff"
+        },
+        {
+          "id_product_attribute": 2,
+          "texture": "",
+          "id_product": "1",
+          "name": "Black",
+          "id_attribute": "11",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=1&id_product_attribute=2&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=1&id_product_attribute=2&rewrite=hummingbird-printed-t-shirt&controller=product#/1-size-s/11-color-black",
+          "type": "color",
+          "html_color_code": "#434A54"
+        }
+      ],
+      "id_product": "1",
+      "price": "$19.12",
+      "reference": "53GG2EF8",
+      "active": "1",
+      "description_short": "<p>Regular fit, round neckline, short sleeves. Made of extra long staple pima cotton. </p>\r\n<p></p>",
+      "link_rewrite": "hummingbird-printed-t-shirt",
+      "name": "Hummingbird printed t-shirt",
+      "manufacturer_name": "Studio Design",
+      "position": "2",
+      "category_name": "Men",
+      "link": "https://shared.htb/index.php?id_product=1&rewrite=hummingbird-printed-t-shirt&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/1/1-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/1/1-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/1/1-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/1/1-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/1/1-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/1/1-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/1/1-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/1/1-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Hummingbird printed t-shirt",
+        "id_image": "1",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ]
+      },
+      "has_discount": true,
+      "discount_type": "percentage",
+      "discount_percentage": "-20%",
+      "discount_percentage_absolute": "20%",
+      "discount_amount": "$4.78",
+      "price_amount": 19.12,
+      "regular_price_amount": 23.9,
+      "regular_price": "$23.90",
+      "discount_to_display": "$4.78"
+    },
+    {
+      "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=9&id_product_attribute=22&token=e364484c852be39174222cdda6902f85",
+      "url": "https://shared.htb/index.php?id_product=9&id_product_attribute=22&rewrite=mountain-fox-cushion&controller=product#/8-color-white",
+      "canonical_url": "https://shared.htb/index.php?id_product=9&rewrite=mountain-fox-cushion&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [
+        {
+          "id_product_attribute": 22,
+          "texture": "",
+          "id_product": "9",
+          "name": "White",
+          "id_attribute": "8",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=9&id_product_attribute=22&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=9&id_product_attribute=22&rewrite=mountain-fox-cushion&controller=product#/8-color-white",
+          "type": "color",
+          "html_color_code": "#ffffff"
+        },
+        {
+          "id_product_attribute": 23,
+          "texture": "",
+          "id_product": "9",
+          "name": "Black",
+          "id_attribute": "11",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=9&id_product_attribute=23&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=9&id_product_attribute=23&rewrite=mountain-fox-cushion&controller=product#/11-color-black",
+          "type": "color",
+          "html_color_code": "#434A54"
+        }
+      ],
+      "id_product": "9",
+      "price": "$18.90",
+      "reference": "DW64K6JF",
+      "active": "1",
+      "description_short": "<p>Cushion with removable cover and invisible zip on the back. 32x32cm</p>",
+      "link_rewrite": "mountain-fox-cushion",
+      "name": "Mountain fox cushion",
+      "manufacturer_name": "Studio Design",
+      "position": "2",
+      "category_name": "Home Accessories",
+      "link": "https://shared.htb/index.php?id_product=9&rewrite=mountain-fox-cushion&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/9/9-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/9/9-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/9/9-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/9/9-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/9/9-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/9/9-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/9/9-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/9/9-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Mountain fox cushion",
+        "id_image": "9",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": [
+          "23"
+        ]
+      },
+      "has_discount": false,
+      "discount_type": null,
+      "discount_percentage": null,
+      "discount_percentage_absolute": null,
+      "discount_amount": null,
+      "price_amount": 18.9,
+      "regular_price_amount": 18.9,
+      "regular_price": "$18.90",
+      "discount_to_display": null
+    },
+    {
+      "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=10&id_product_attribute=24&token=e364484c852be39174222cdda6902f85",
+      "url": "https://shared.htb/index.php?id_product=10&id_product_attribute=24&rewrite=brown-bear-cushion&controller=product#/8-color-white",
+      "canonical_url": "https://shared.htb/index.php?id_product=10&rewrite=brown-bear-cushion&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [
+        {
+          "id_product_attribute": 24,
+          "texture": "",
+          "id_product": "10",
+          "name": "White",
+          "id_attribute": "8",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=10&id_product_attribute=24&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=10&id_product_attribute=24&rewrite=brown-bear-cushion&controller=product#/8-color-white",
+          "type": "color",
+          "html_color_code": "#ffffff"
+        },
+        {
+          "id_product_attribute": 25,
+          "texture": "",
+          "id_product": "10",
+          "name": "Black",
+          "id_attribute": "11",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=10&id_product_attribute=25&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=10&id_product_attribute=25&rewrite=brown-bear-cushion&controller=product#/11-color-black",
+          "type": "color",
+          "html_color_code": "#434A54"
+        }
+      ],
+      "id_product": "10",
+      "price": "$18.90",
+      "reference": "B4GTLMT3",
+      "active": "1",
+      "description_short": "<p>Cushion with removable cover and invisible zip on the back. 32x32cm</p>",
+      "link_rewrite": "brown-bear-cushion",
+      "name": "Brown bear cushion",
+      "manufacturer_name": "Studio Design",
+      "position": "2",
+      "category_name": "Home Accessories",
+      "link": "https://shared.htb/index.php?id_product=10&rewrite=brown-bear-cushion&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/1/1/11-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/1/1/11-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/1/1/11-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/1/1/11-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/1/1/11-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/1/1/11-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/1/1/11-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/1/1/11-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Brown bear cushion",
+        "id_image": "11",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": [
+          "25"
+        ]
+      },
+      "has_discount": false,
+      "discount_type": null,
+      "discount_percentage": null,
+      "discount_percentage_absolute": null,
+      "discount_amount": null,
+      "price_amount": 18.9,
+      "regular_price_amount": 18.9,
+      "regular_price": "$18.90",
+      "discount_to_display": null
+    },
+    {
+      "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=11&id_product_attribute=26&token=e364484c852be39174222cdda6902f85",
+      "url": "https://shared.htb/index.php?id_product=11&id_product_attribute=26&rewrite=hummingbird-cushion&controller=product#/8-color-white",
+      "canonical_url": "https://shared.htb/index.php?id_product=11&rewrite=hummingbird-cushion&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [
+        {
+          "id_product_attribute": 26,
+          "texture": "",
+          "id_product": "11",
+          "name": "White",
+          "id_attribute": "8",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=11&id_product_attribute=26&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=11&id_product_attribute=26&rewrite=hummingbird-cushion&controller=product#/8-color-white",
+          "type": "color",
+          "html_color_code": "#ffffff"
+        },
+        {
+          "id_product_attribute": 27,
+          "texture": "",
+          "id_product": "11",
+          "name": "Black",
+          "id_attribute": "11",
+          "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=11&id_product_attribute=27&token=e364484c852be39174222cdda6902f85",
+          "url": "https://shared.htb/index.php?id_product=11&id_product_attribute=27&rewrite=hummingbird-cushion&controller=product#/11-color-black",
+          "type": "color",
+          "html_color_code": "#434A54"
+        }
+      ],
+      "id_product": "11",
+      "price": "$18.90",
+      "reference": "B4ATAMB4",
+      "active": "1",
+      "description_short": "<p>Cushion with removable cover and invisible zip on the back. 32x32cm</p>",
+      "link_rewrite": "hummingbird-cushion",
+      "name": "Hummingbird cushion",
+      "manufacturer_name": "Studio Design",
+      "position": "2",
+      "category_name": "Home Accessories",
+      "link": "https://shared.htb/index.php?id_product=11&rewrite=hummingbird-cushion&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/1/3/13-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/1/3/13-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/1/3/13-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/1/3/13-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/1/3/13-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/1/3/13-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/1/3/13-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/1/3/13-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Hummingbird cushion",
+        "id_image": "13",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": [
+          "27"
+        ]
+      },
+      "has_discount": false,
+      "discount_type": null,
+      "discount_percentage": null,
+      "discount_percentage_absolute": null,
+      "discount_amount": null,
+      "price_amount": 18.9,
+      "regular_price_amount": 18.9,
+      "regular_price": "$18.90",
+      "discount_to_display": null
+    },
+    {
+      "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=6&id_product_attribute=0&token=e364484c852be39174222cdda6902f85",
+      "url": "https://shared.htb/index.php?id_product=6&rewrite=mug-the-best-is-yet-to-come&controller=product",
+      "canonical_url": "https://shared.htb/index.php?id_product=6&rewrite=mug-the-best-is-yet-to-come&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [],
+      "id_product": "6",
+      "price": "$11.90",
+      "reference": "7DA8SKYP",
+      "active": "1",
+      "description_short": "<p>White Ceramic Mug, 325ml.</p>",
+      "link_rewrite": "mug-the-best-is-yet-to-come",
+      "name": "Mug The best is yet to come",
+      "manufacturer_name": "Studio Design",
+      "position": "1",
+      "category_name": "Home Accessories",
+      "link": "https://shared.htb/index.php?id_product=6&rewrite=mug-the-best-is-yet-to-come&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/6/6-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/6/6-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/6/6-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/6/6-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/6/6-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/6/6-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/6/6-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/6/6-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Mug The best is yet to come",
+        "id_image": "6",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": []
+      },
+      "has_discount": false,
+      "discount_type": null,
+      "discount_percentage": null,
+      "discount_percentage_absolute": null,
+      "discount_amount": null,
+      "price_amount": 11.9,
+      "regular_price_amount": 11.9,
+      "regular_price": "$11.90",
+      "discount_to_display": null
+    },
+    {
+      "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=7&id_product_attribute=0&token=e364484c852be39174222cdda6902f85",
+      "url": "https://shared.htb/index.php?id_product=7&rewrite=mug-the-adventure-begins&controller=product",
+      "canonical_url": "https://shared.htb/index.php?id_product=7&rewrite=mug-the-adventure-begins&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [],
+      "id_product": "7",
+      "price": "$11.90",
+      "reference": "2E6E8GXJ",
+      "active": "1",
+      "description_short": "<p>White Ceramic Mug. 325ml</p>",
+      "link_rewrite": "mug-the-adventure-begins",
+      "name": "Mug The adventure begins",
+      "manufacturer_name": "Studio Design",
+      "position": "1",
+      "category_name": "Home Accessories",
+      "link": "https://shared.htb/index.php?id_product=7&rewrite=mug-the-adventure-begins&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/7/7-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/7/7-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/7/7-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/7/7-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/7/7-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/7/7-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/7/7-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/7/7-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Mug The adventure begins",
+        "id_image": "7",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": []
+      },
+      "has_discount": false,
+      "discount_type": null,
+      "discount_percentage": null,
+      "discount_percentage_absolute": null,
+      "discount_amount": null,
+      "price_amount": 11.9,
+      "regular_price_amount": 11.9,
+      "regular_price": "$11.90",
+      "discount_to_display": null
+    },
+    {
+      "add_to_cart_url": "https://shared.htb/index.php?controller=cart&add=1&id_product=8&id_product_attribute=0&token=e364484c852be39174222cdda6902f85",
+      "url": "https://shared.htb/index.php?id_product=8&rewrite=mug-today-is-a-good-day&controller=product",
+      "canonical_url": "https://shared.htb/index.php?id_product=8&rewrite=mug-today-is-a-good-day&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [],
+      "id_product": "8",
+      "price": "$11.90",
+      "reference": "562XZDU8",
+      "active": "1",
+      "description_short": "<p>White Ceramic Mug. 325ml</p>",
+      "link_rewrite": "mug-today-is-a-good-day",
+      "name": "Mug Today is a good day",
+      "manufacturer_name": "Studio Design",
+      "position": "1",
+      "category_name": "Home Accessories",
+      "link": "https://shared.htb/index.php?id_product=8&rewrite=mug-today-is-a-good-day&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/8/8-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/8/8-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/8/8-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/8/8-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/8/8-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/8/8-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/8/8-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/8/8-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Mug Today is a good day",
+        "id_image": "8",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": []
+      },
+      "has_discount": false,
+      "discount_type": null,
+      "discount_percentage": null,
+      "discount_percentage_absolute": null,
+      "discount_amount": null,
+      "price_amount": 11.9,
+      "regular_price_amount": 11.9,
+      "regular_price": "$11.90",
+      "discount_to_display": null
+    },
+    {
+      "add_to_cart_url": null,
+      "url": "https://shared.htb/index.php?id_product=19&rewrite=customizable-mug&controller=product",
+      "canonical_url": "https://shared.htb/index.php?id_product=19&rewrite=customizable-mug&controller=product",
+      "labels": {
+        "tax_short": "(tax excl.)",
+        "tax_long": "Tax excluded"
+      },
+      "main_variants": [],
+      "id_product": "19",
+      "price": "$13.90",
+      "reference": "8LPULR6Q",
+      "active": "1",
+      "description_short": "<p>White Ceramic Mug. 325ml</p>",
+      "link_rewrite": "customizable-mug",
+      "name": "Customizable mug",
+      "manufacturer_name": "Studio Design",
+      "position": "1",
+      "category_name": "Home Accessories",
+      "link": "https://shared.htb/index.php?id_product=19&rewrite=customizable-mug&controller=product",
+      "rate": 0,
+      "tax_name": "",
+      "unit_price": "",
+      "cover": {
+        "bySize": {
+          "small_default": {
+            "url": "https://shared.htb/img/p/2/2/22-small_default.jpg",
+            "width": 98,
+            "height": 98
+          },
+          "cart_default": {
+            "url": "https://shared.htb/img/p/2/2/22-cart_default.jpg",
+            "width": 125,
+            "height": 125
+          },
+          "home_default": {
+            "url": "https://shared.htb/img/p/2/2/22-home_default.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "medium_default": {
+            "url": "https://shared.htb/img/p/2/2/22-medium_default.jpg",
+            "width": 452,
+            "height": 452
+          },
+          "large_default": {
+            "url": "https://shared.htb/img/p/2/2/22-large_default.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "small": {
+          "url": "https://shared.htb/img/p/2/2/22-small_default.jpg",
+          "width": 98,
+          "height": 98
+        },
+        "medium": {
+          "url": "https://shared.htb/img/p/2/2/22-home_default.jpg",
+          "width": 250,
+          "height": 250
+        },
+        "large": {
+          "url": "https://shared.htb/img/p/2/2/22-large_default.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "legend": "Customizable mug",
+        "id_image": "22",
+        "cover": "1",
+        "position": "1",
+        "associatedVariants": []
+      },
+      "has_discount": false,
+      "discount_type": null,
+      "discount_percentage": null,
+      "discount_percentage_absolute": null,
+      "discount_amount": null,
+      "price_amount": 13.9,
+      "regular_price_amount": 13.9,
+      "regular_price": "$13.90",
+      "discount_to_display": null
+    }
+  ],
+  "sort_orders": [
+    {
+      "entity": "product",
+      "field": "position",
+      "direction": "asc",
+      "label": "Relevance",
+      "urlParameter": "product.position.asc",
+      "current": false,
+      "url": "https://shared.htb/index.php?controller=search&order=product.position.asc"
+    },
+    {
+      "entity": "product",
+      "field": "name",
+      "direction": "asc",
+      "label": "Name, A to Z",
+      "urlParameter": "product.name.asc",
+      "current": false,
+      "url": "https://shared.htb/index.php?controller=search&order=product.name.asc"
+    },
+    {
+      "entity": "product",
+      "field": "name",
+      "direction": "desc",
+      "label": "Name, Z to A",
+      "urlParameter": "product.name.desc",
+      "current": false,
+      "url": "https://shared.htb/index.php?controller=search&order=product.name.desc"
+    },
+    {
+      "entity": "product",
+      "field": "price",
+      "direction": "asc",
+      "label": "Price, low to high",
+      "urlParameter": "product.price.asc",
+      "current": false,
+      "url": "https://shared.htb/index.php?controller=search&order=product.price.asc"
+    },
+    {
+      "entity": "product",
+      "field": "price",
+      "direction": "desc",
+      "label": "Price, high to low",
+      "urlParameter": "product.price.desc",
+      "current": false,
+      "url": "https://shared.htb/index.php?controller=search&order=product.price.desc"
+    }
+  ],
+  "sort_selected": false,
+  "pagination": {
+    "total_items": "8",
+    "items_shown_from": 1,
+    "items_shown_to": "8",
+    "current_page": 1,
+    "pages_count": 1,
+    "pages": {
+      "1": {
+        "type": "page",
+        "page": 1,
+        "clickable": false,
+        "current": true,
+        "url": "https://shared.htb/index.php?controller=search"
+      }
+    },
+    "should_be_displayed": false
+  },
+  "rendered_facets": "",
+  "rendered_active_filters": "",
+  "js_enabled": true,
+  "current_url": "https://shared.htb/index.php?controller=search"
+}

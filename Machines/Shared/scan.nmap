@@ -1,0 +1,41 @@
+# Nmap 7.92 scan initiated Mon Sep 26 10:59:18 2022 as: nmap -sV -sC -v -oN scan.nmap 10.10.11.172
+Nmap scan report for 10.10.11.172
+Host is up (0.22s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 91:e8:35:f4:69:5f:c2:e2:0e:27:46:e2:a6:b6:d8:65 (RSA)
+|   256 cf:fc:c4:5d:84:fb:58:0b:be:2d:ad:35:40:9d:c3:51 (ECDSA)
+|_  256 a3:38:6d:75:09:64:ed:70:cf:17:49:9a:dc:12:6d:11 (ED25519)
+80/tcp  open  http     nginx 1.18.0
+|_http-title: Did not follow redirect to http://shared.htb
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.18.0
+443/tcp open  ssl/http nginx 1.18.0
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=*.shared.htb/organizationName=HTB/stateOrProvinceName=None/countryName=US
+| Issuer: commonName=*.shared.htb/organizationName=HTB/stateOrProvinceName=None/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-03-20T13:37:14
+| Not valid after:  2042-03-15T13:37:14
+| MD5:   fb0b 4ab4 9ee7 d95d ae43 239a fca4 c59e
+|_SHA-1: 6ccd a103 5d29 a441 0aa2 0e32 79c4 83e1 750a d0a0
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+|_http-title: Did not follow redirect to https://shared.htb
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.18.0
+| tls-alpn: 
+|   h2
+|_  http/1.1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 26 11:00:08 2022 -- 1 IP address (1 host up) scanned in 50.26 seconds
