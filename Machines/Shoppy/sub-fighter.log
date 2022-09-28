@@ -1,0 +1,34 @@
+This is METAFONT, Version 2.71828182 (preloaded base=mf 2022.9.8)  20 SEP 2022 11:02
+**sub-fighter subDomainFuzz
+(sub-fighter
+>> Target
+! Isolated expression.
+<to be read again> 
+                   :
+l.1 Target:
+            http://shoppy.htb/
+? 
+! Extra tokens will be flushed.
+<to be read again> 
+                   :
+l.1 Target:
+            http://shoppy.htb/
+? 
+! Interruption.
+l.1 Target:
+            http://shoppy.htb/
+? 
+! Enormous number has been reduced.
+l.2 Total requests: 100000
+                          
+? 
+! Enormous number has been reduced.
+l.6 47340
+         :  C=200      0 L	     141 W	   3122 Ch	  "mattermost"
+? lear
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? x
+

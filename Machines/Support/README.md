@@ -257,3 +257,12 @@ Mode                 LastWriteTime         Length Name
 ## Privilege Escalation
 
 <---- TO BE CONTINUED ---->
+
+	[*] Input password             : 123456
+[*] Input username             : FAKE01$
+[*] Input domain               : support.htb
+[*] Salt                       : SUPPORT.HTBhostfake01.support.htb
+[*]       rc4_hmac             : 32ED87BDB5FDC5E9CBA88547376818D4
+[*]       aes128_cts_hmac_sha1 : 4799D0F80833802EE7F1412BD30DCD5C
+[*]       aes256_cts_hmac_sha1 : 35CE465C01BC1577DE3410452165E5244779C17B64E6D89459C1EC3C8DAA362B
+[*]       des_cbc_md5          : 836D4C85A4F23B62
