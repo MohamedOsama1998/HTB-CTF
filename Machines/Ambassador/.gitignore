@@ -2,3 +2,4 @@ exploit.py
 grafana.db
 grafana.ini
 password
+.gitignore
