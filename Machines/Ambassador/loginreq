@@ -1,0 +1,14 @@
+POST /login HTTP/1.1
+Host: 10.129.215.145:3000
+Content-Length: 35
+accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.5195.102 Safari/537.36
+content-type: application/json
+Origin: http://10.129.215.145:3000
+Referer: http://10.129.215.145:3000/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: redirect_to=%2F
+Connection: close
+
+{"user":"admin","password":"admin"}
