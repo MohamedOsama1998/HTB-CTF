@@ -1,0 +1,31 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://vessel.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   302
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/10/15 06:14:03 Starting gobuster in directory enumeration mode
+===============================================================
+/img                  (Status: 301) [Size: 173] [--> /img/]
+/login                (Status: 200) [Size: 4213]           
+/register             (Status: 200) [Size: 5830]           
+/css                  (Status: 301) [Size: 173] [--> /css/]
+/Login                (Status: 200) [Size: 4213]           
+/dev                  (Status: 301) [Size: 173] [--> /dev/]
+/js                   (Status: 301) [Size: 171] [--> /js/] 
+/404                  (Status: 200) [Size: 2393]           
+/401                  (Status: 200) [Size: 2400]           
+/Register             (Status: 200) [Size: 5830]           
+/500                  (Status: 200) [Size: 2335]           
+/reset                (Status: 200) [Size: 3637]           
+/http%3A%2F%2Fwww     (Status: 404) [Size: 272]            
+/http%3A%2F%2Fyoutube (Status: 404) [Size: 272]            
+/http%3A%2F%2Fblogs   (Status: 404) [Size: 272]            
+/http%3A%2F%2Fblog    (Status: 404) [Size: 272]            
+/%C0                  (Status: 400) [Size: 1154]           

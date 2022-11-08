@@ -1,0 +1,21 @@
+# Nmap 7.93 scan initiated Sat Oct 29 22:32:56 2022 as: nmap -sV -sC -v -oN scan.nmap 10.129.235.53
+Nmap scan report for 10.129.235.53
+Host is up (0.20s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp?
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 c4b44617d2102d8fec1dc927fecd79ee (RSA)
+|   256 2aea2fcb23e8c529409cab866dcd4411 (ECDSA)
+|_  256 fd78c0b0e22016fa050debd83f12a4ab (ED25519)
+80/tcp open  http    nginx 1.18.0
+|_http-title: Did not follow redirect to http://metapress.htb/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.18.0
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 29 22:37:07 2022 -- 1 IP address (1 host up) scanned in 252.01 seconds

@@ -1,0 +1,23 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://portal.carpediem.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Timeout:                 10s
+===============================================================
+2022/10/17 09:01:54 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/uploads              (Status: 301) [Size: 330] [--> http://portal.carpediem.htb/uploads/]
+[2K/admin                (Status: 301) [Size: 328] [--> http://portal.carpediem.htb/admin/]
+[2K/assets               (Status: 301) [Size: 329] [--> http://portal.carpediem.htb/assets/]
+[2K/plugins              (Status: 301) [Size: 330] [--> http://portal.carpediem.htb/plugins/]
+[2K/classes              (Status: 301) [Size: 330] [--> http://portal.carpediem.htb/classes/]
+[2K/dist                 (Status: 301) [Size: 327] [--> http://portal.carpediem.htb/dist/]
+[2K/inc                  (Status: 301) [Size: 326] [--> http://portal.carpediem.htb/inc/]
+[2K/build                (Status: 301) [Size: 328] [--> http://portal.carpediem.htb/build/]
+[2K/libs                 (Status: 301) [Size: 327] [--> http://portal.carpediem.htb/libs/]
