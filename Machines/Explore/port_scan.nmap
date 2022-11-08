@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Mon Nov  7 22:56:46 2022 as: nmap -p- -oN port_scan.nmap -v 10.10.10.247
+Nmap scan report for 10.10.10.247
+Host is up (0.19s latency).
+Not shown: 65530 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE
+2222/tcp  open     EtherNetIP-1
+5555/tcp  filtered freeciv
+37479/tcp open     unknown
+42135/tcp open     unknown
+59777/tcp open     unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Nov  7 23:05:50 2022 -- 1 IP address (1 host up) scanned in 544.10 seconds

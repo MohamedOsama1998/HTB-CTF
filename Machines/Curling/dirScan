@@ -1,0 +1,19 @@
+/images              [36m (Status: 301)[0m [Size: 313][34m [--> http://10.10.10.150/images/][0m
+/modules             [36m (Status: 301)[0m [Size: 314][34m [--> http://10.10.10.150/modules/][0m
+/includes            [36m (Status: 301)[0m [Size: 315][34m [--> http://10.10.10.150/includes/][0m
+/cache               [36m (Status: 301)[0m [Size: 312][34m [--> http://10.10.10.150/cache/][0m
+/media               [36m (Status: 301)[0m [Size: 312][34m [--> http://10.10.10.150/media/][0m
+/tmp                 [36m (Status: 301)[0m [Size: 310][34m [--> http://10.10.10.150/tmp/][0m
+/language            [36m (Status: 301)[0m [Size: 315][34m [--> http://10.10.10.150/language/][0m
+/plugins             [36m (Status: 301)[0m [Size: 314][34m [--> http://10.10.10.150/plugins/][0m
+/administrator       [36m (Status: 301)[0m [Size: 320][34m [--> http://10.10.10.150/administrator/][0m
+/components          [36m (Status: 301)[0m [Size: 317][34m [--> http://10.10.10.150/components/][0m
+/bin                 [36m (Status: 301)[0m [Size: 310][34m [--> http://10.10.10.150/bin/][0m
+/libraries           [36m (Status: 301)[0m [Size: 316][34m [--> http://10.10.10.150/libraries/][0m
+/templates           [36m (Status: 301)[0m [Size: 316][34m [--> http://10.10.10.150/templates/][0m
+/index.php           [32m (Status: 200)[0m [Size: 14264]
+/layouts             [36m (Status: 301)[0m [Size: 314][34m [--> http://10.10.10.150/layouts/][0m
+/configuration.php   [32m (Status: 200)[0m [Size: 0]
+/server-status       [33m (Status: 403)[0m [Size: 277]
+/.php                [33m (Status: 403)[0m [Size: 277]
+/cli                 [36m (Status: 301)[0m [Size: 310][34m [--> http://10.10.10.150/cli/][0m
