@@ -1,0 +1,5 @@
+/login               [33m (Status: 401)[0m [Size: 19]
+/home                [33m (Status: 401)[0m [Size: 19]
+/tickets             [33m (Status: 401)[0m [Size: 19]
+/forgot              [32m (Status: 200)[0m [Size: 5227]
+/reset               [32m (Status: 200)[0m [Size: 5523]
