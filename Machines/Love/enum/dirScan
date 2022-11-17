@@ -1,0 +1,36 @@
+/admin               [36m (Status: 301)[0m [Size: 329][34m [--> http://love.htb/admin/][0m
+/includes            [36m (Status: 301)[0m [Size: 332][34m [--> http://love.htb/includes/][0m
+/images              [36m (Status: 301)[0m [Size: 330][34m [--> http://love.htb/images/][0m
+/plugins             [36m (Status: 301)[0m [Size: 331][34m [--> http://love.htb/plugins/][0m
+/logout.php          [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/login.php           [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/Admin               [36m (Status: 301)[0m [Size: 329][34m [--> http://love.htb/Admin/][0m
+/home.php            [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/webalizer           [33m (Status: 403)[0m [Size: 298]
+/Login.php           [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/Images              [36m (Status: 301)[0m [Size: 330][34m [--> http://love.htb/Images/][0m
+/index.php           [32m (Status: 200)[0m [Size: 4388]
+/phpmyadmin          [33m (Status: 403)[0m [Size: 298]
+/preview.php         [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/Includes            [36m (Status: 301)[0m [Size: 332][34m [--> http://love.htb/Includes/][0m
+/examples            [31m (Status: 503)[0m [Size: 398]
+/ADMIN               [36m (Status: 301)[0m [Size: 329][34m [--> http://love.htb/ADMIN/][0m
+/Home.php            [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/dist                [36m (Status: 301)[0m [Size: 328][34m [--> http://love.htb/dist/][0m
+/IMAGES              [36m (Status: 301)[0m [Size: 330][34m [--> http://love.htb/IMAGES/][0m
+/Preview.php         [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/Logout.php          [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/tcpdf               [36m (Status: 301)[0m [Size: 329][34m [--> http://love.htb/tcpdf/][0m
+/licenses            [33m (Status: 403)[0m [Size: 417]
+/server-status       [33m (Status: 403)[0m [Size: 417]
+/PlugIns             [36m (Status: 301)[0m [Size: 331][34m [--> http://love.htb/PlugIns/][0m
+/INCLUDES            [36m (Status: 301)[0m [Size: 332][34m [--> http://love.htb/INCLUDES/][0m
+/Index.php           [32m (Status: 200)[0m [Size: 4388]
+/Plugins             [36m (Status: 301)[0m [Size: 331][34m [--> http://love.htb/Plugins/][0m
+/con                 [33m (Status: 403)[0m [Size: 298]
+/con.php             [33m (Status: 403)[0m [Size: 298]
+/HOME.php            [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/aux                 [33m (Status: 403)[0m [Size: 298]
+/aux.php             [33m (Status: 403)[0m [Size: 298]
+/LOGIN.php           [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m
+/PREVIEW.php         [36m (Status: 302)[0m [Size: 0][34m [--> index.php][0m

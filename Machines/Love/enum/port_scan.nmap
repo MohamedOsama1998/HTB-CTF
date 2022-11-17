@@ -1,0 +1,27 @@
+# Nmap 7.93 scan initiated Thu Nov 17 13:00:26 2022 as: nmap -v -p- --min-rate=1000 -oN enum/port_scan.nmap 10.10.10.239
+Nmap scan report for love.htb (10.10.10.239)
+Host is up (0.11s latency).
+Not shown: 65516 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3306/tcp  open  mysql
+5000/tcp  open  upnp
+5040/tcp  open  unknown
+5985/tcp  open  wsman
+5986/tcp  open  wsmans
+7680/tcp  open  pando-pub
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49670/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Nov 17 13:01:31 2022 -- 1 IP address (1 host up) scanned in 65.70 seconds

