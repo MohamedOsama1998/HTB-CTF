@@ -1,0 +1,10 @@
+Target: http://scrambled.htb/
+Total requests: 100000
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+
+Total time: 0
+Processed Requests: 6824
+Filtered Requests: 6824
+Requests/sec.: 0
