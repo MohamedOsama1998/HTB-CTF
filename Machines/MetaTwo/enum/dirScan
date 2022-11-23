@@ -1,0 +1,92 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://metapress.htb/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Timeout:                 10s
+===============================================================
+2022/10/29 22:46:26 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/about                (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/rss                  (Status: 301) [Size: 0] [--> http://metapress.htb/feed/]
+[2K/login                (Status: 302) [Size: 0] [--> http://metapress.htb/wp-login.php]
+[2K/events               (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/0                    (Status: 301) [Size: 0] [--> http://metapress.htb/0/]
+[2K/feed                 (Status: 301) [Size: 0] [--> http://metapress.htb/feed/]
+[2K/atom                 (Status: 301) [Size: 0] [--> http://metapress.htb/feed/atom/]
+[2K/s                    (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/a                    (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/c                    (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/wp-content           (Status: 301) [Size: 169] [--> http://metapress.htb/wp-content/]
+[2K/admin                (Status: 302) [Size: 0] [--> http://metapress.htb/wp-admin/]
+[2K/t                    (Status: 301) [Size: 0] [--> http://metapress.htb/thank-you/]
+[2K/e                    (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/h                    (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/rss2                 (Status: 301) [Size: 0] [--> http://metapress.htb/feed/]
+[2K/About                (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/ca                   (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/event                (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/wp-includes          (Status: 301) [Size: 169] [--> http://metapress.htb/wp-includes/]
+[2K/C                    (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/A                    (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/S                    (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/E                    (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/about-us             (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/Events               (Status: 301) [Size: 0] [--> http://metapress.htb/Events/]
+[2K/T                    (Status: 301) [Size: 0] [--> http://metapress.htb/thank-you/]
+[2K/H                    (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/sa                   (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/rdf                  (Status: 301) [Size: 0] [--> http://metapress.htb/feed/rdf/]
+[2K/page1                (Status: 301) [Size: 0] [--> http://metapress.htb/]
+[2K/sample               (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/'                    (Status: 301) [Size: 0] [--> http://metapress.htb/]
+[2K/th                   (Status: 301) [Size: 0] [--> http://metapress.htb/thank-you/]
+[2K/CA                   (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/dashboard            (Status: 302) [Size: 0] [--> http://metapress.htb/wp-admin/]
+[2K/he                   (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/ab                   (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/%20                  (Status: 301) [Size: 0] [--> http://metapress.htb/]
+[2K/sam                  (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/hello                (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/ev                   (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/wp-admin             (Status: 301) [Size: 169] [--> http://metapress.htb/wp-admin/]
+[2K/cancel               (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/eve                  (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/can                  (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/0000                 (Status: 301) [Size: 0] [--> http://metapress.htb/0000/]
+[2K/2022                 (Status: 301) [Size: 0] [--> http://metapress.htb/2022/]
+[2K/Event                (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/About-Us             (Status: 301) [Size: 0] [--> http://metapress.htb/About-Us/]
+[2K/hello-world          (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/embed                (Status: 301) [Size: 0] [--> http://metapress.htb/embed/]
+[2K/abo                  (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/hell                 (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/SA                   (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/AB                   (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/Hello                (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/Oasis - 'Definitely Maybe' (Status: 301) [Size: 0] [--> http://metapress.htb/Oasis%20-%20%27Definitely%20Maybe]
+[2K/TH                   (Status: 301) [Size: 0] [--> http://metapress.htb/thank-you/]
+[2K/EVENTS               (Status: 301) [Size: 0] [--> http://metapress.htb/EVENTS/]
+[2K/Cancel               (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/Sample               (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/!                    (Status: 301) [Size: 0] [--> http://metapress.htb/]
+[2K/ABOUT                (Status: 301) [Size: 0] [--> http://metapress.htb/about-us/]
+[2K/hel                  (Status: 301) [Size: 0] [--> http://metapress.htb/hello-world/]
+[2K/Bling!               (Status: 301) [Size: 0] [--> http://metapress.htb/Bling]
+[2K/EV                   (Status: 301) [Size: 0] [--> http://metapress.htb/events/]
+[2K/Check All Tracker Features! (Status: 301) [Size: 0] [--> http://metapress.htb/Check%20All%20Tracker%20Features]
+[2K/Check Screenshots!   (Status: 301) [Size: 0] [--> http://metapress.htb/Check%20Screenshots]
+[2K/About Us             (Status: 301) [Size: 0] [--> http://metapress.htb/About%20Us/]
+[2K/CAN                  (Status: 301) [Size: 0] [--> http://metapress.htb/cancel-appointment/]
+[2K/yahoo!               (Status: 301) [Size: 0] [--> http://metapress.htb/yahoo]
+[2K/About%20Us           (Status: 301) [Size: 0] [--> http://metapress.htb/About%20Us/]
+[2K/SAM                  (Status: 301) [Size: 0] [--> http://metapress.htb/sample-page/]
+[2K/Welcome!             (Status: 301) [Size: 0] [--> http://metapress.htb/Welcome]
+===============================================================
+2022/10/29 23:23:07 Finished
+===============================================================

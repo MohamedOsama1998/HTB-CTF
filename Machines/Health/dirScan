@@ -1,0 +1,17 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://health.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Timeout:                 10s
+===============================================================
+2022/10/27 18:13:00 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/css                  (Status: 301) [Size: 306] [--> http://health.htb/css/]
+[2K/js                   (Status: 301) [Size: 305] [--> http://health.htb/js/]
+[2K/javascript           (Status: 301) [Size: 313] [--> http://health.htb/javascript/]

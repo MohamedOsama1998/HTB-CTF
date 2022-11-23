@@ -1,0 +1,1 @@
+# Nmap 7.93 scan initiated Tue Nov  8 07:24:09 2022 as: nmap -p- -v -oN enum/port_scan -T4 10.10.10.134

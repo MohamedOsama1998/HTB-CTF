@@ -1,0 +1,41 @@
+# Nmap 7.93 scan initiated Sat Nov 12 08:41:36 2022 as: nmap -sV -sC -v -p- -oN enum/scan.nmap 10.10.11.143
+Nmap scan report for 10.10.11.143
+Host is up (0.19s latency).
+Not shown: 65532 closed tcp ports (conn-refused)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.0 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 1005ea5056a600cb1c9c93df5f83e064 (RSA)
+|   256 588c821cc6632a83875c2f2b4f4dc379 (ECDSA)
+|_  256 3178afd13bc42e9d604eeb5d03eca022 (ED25519)
+80/tcp  open  http     Apache httpd 2.4.37 ((centos) OpenSSL/1.1.1k mod_fcgid/2.3.9)
+|_http-title: HTTP Server Test Page powered by CentOS
+|_http-generator: HTML Tidy for HTML5 for Linux version 5.7.28
+| http-methods: 
+|   Supported Methods: GET POST OPTIONS HEAD TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.37 (centos) OpenSSL/1.1.1k mod_fcgid/2.3.9
+443/tcp open  ssl/http Apache httpd 2.4.37 ((centos) OpenSSL/1.1.1k mod_fcgid/2.3.9)
+|_ssl-date: TLS randomness does not represent time
+| http-methods: 
+|   Supported Methods: GET POST OPTIONS HEAD TRACE
+|_  Potentially risky methods: TRACE
+|_http-title: HTTP Server Test Page powered by CentOS
+|_http-generator: HTML Tidy for HTML5 for Linux version 5.7.28
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=Unspecified/countryName=US
+| Subject Alternative Name: DNS:localhost.localdomain
+| Issuer: commonName=localhost.localdomain/organizationName=Unspecified/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-07-03T08:52:34
+| Not valid after:  2022-07-08T10:32:34
+| MD5:   579a92bd803cac47d49c5adde44e4f84
+|_SHA-1: 61a2301f9e5c2603a64300b5e5da5fd5c175f3a9
+| tls-alpn: 
+|_  http/1.1
+|_http-server-header: Apache/2.4.37 (centos) OpenSSL/1.1.1k mod_fcgid/2.3.9
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov 12 08:50:32 2022 -- 1 IP address (1 host up) scanned in 535.87 seconds

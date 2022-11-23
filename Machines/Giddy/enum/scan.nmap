@@ -1,0 +1,52 @@
+# Nmap 7.93 scan initiated Thu Nov 17 11:14:30 2022 as: nmap -sV -sC -v -p- -oN enum/scan.nmap 10.10.10.104
+Nmap scan report for 10.10.10.104
+Host is up (0.073s latency).
+Not shown: 65531 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+|_http-title: IIS Windows Server
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+443/tcp  open  ssl/http      Microsoft IIS httpd 10.0
+|_ssl-date: 2022-11-17T16:17:38+00:00; -1s from scanner time.
+| ssl-cert: Subject: commonName=PowerShellWebAccessTestWebSite
+| Issuer: commonName=PowerShellWebAccessTestWebSite
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2018-06-16T21:28:55
+| Not valid after:  2018-09-14T21:28:55
+| MD5:   78a74af53b09c882a149f977cf8f1182
+|_SHA-1: 8adc3379878af13f0154406a3eadd34569676a23
+|_http-server-header: Microsoft-IIS/10.0
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows Server
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2022-11-17T16:17:38+00:00; -1s from scanner time.
+| ssl-cert: Subject: commonName=Giddy
+| Issuer: commonName=Giddy
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-11-16T16:12:47
+| Not valid after:  2023-05-18T16:12:47
+| MD5:   31d18775c32e1db613669df6afae914f
+|_SHA-1: c441adcdae02058dd71bc9cfff49ad456d54bda9
+5985/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 17 11:17:40 2022 -- 1 IP address (1 host up) scanned in 190.46 seconds

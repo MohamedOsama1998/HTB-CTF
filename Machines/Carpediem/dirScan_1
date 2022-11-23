@@ -1,0 +1,17 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://Carpediem.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Timeout:                 10s
+===============================================================
+2022/10/17 08:48:32 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/img                  (Status: 301) [Size: 178] [--> http://carpediem.htb/img/]
+[2K/scripts              (Status: 301) [Size: 178] [--> http://carpediem.htb/scripts/]
+[2K/styles               (Status: 301) [Size: 178] [--> http://carpediem.htb/styles/]

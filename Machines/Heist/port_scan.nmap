@@ -1,0 +1,13 @@
+# Nmap 7.93 scan initiated Tue Nov  8 00:26:36 2022 as: nmap -p- -v -oN port_scan.nmap --min-rate=5000 10.10.10.149
+Nmap scan report for 10.10.10.149
+Host is up (0.15s latency).
+Not shown: 65530 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+445/tcp   open  microsoft-ds
+5985/tcp  open  wsman
+49669/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Nov  8 00:27:36 2022 -- 1 IP address (1 host up) scanned in 60.18 seconds

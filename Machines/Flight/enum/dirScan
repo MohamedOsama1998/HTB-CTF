@@ -1,0 +1,33 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://flight.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/raft-small-directories.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.2.0-dev
+[+] Timeout:                 10s
+===============================================================
+2022/11/06 14:00:27 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/js                   (Status: 301) [Size: 329] [--> http://flight.htb/js/]
+[2K/images               (Status: 301) [Size: 333] [--> http://flight.htb/images/]
+[2K/css                  (Status: 301) [Size: 330] [--> http://flight.htb/css/]
+[2K/webalizer            (Status: 403) [Size: 418]
+[2K/Images               (Status: 301) [Size: 333] [--> http://flight.htb/Images/]
+[2K/phpmyadmin           (Status: 403) [Size: 418]
+[2K/CSS                  (Status: 301) [Size: 330] [--> http://flight.htb/CSS/]
+[2K/examples             (Status: 503) [Size: 399]
+[2K/JS                   (Status: 301) [Size: 329] [--> http://flight.htb/JS/]
+[2K/Js                   (Status: 301) [Size: 329] [--> http://flight.htb/Js/]
+[2K/Css                  (Status: 301) [Size: 330] [--> http://flight.htb/Css/]
+[2K/IMAGES               (Status: 301) [Size: 333] [--> http://flight.htb/IMAGES/]
+[2K/licenses             (Status: 403) [Size: 418]
+[2K/server-status        (Status: 403) [Size: 418]
+[2K/con                  (Status: 403) [Size: 299]
+[2K/aux                  (Status: 403) [Size: 299]
+===============================================================
+2022/11/06 14:03:56 Finished
+===============================================================

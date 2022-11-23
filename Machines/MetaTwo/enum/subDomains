@@ -1,0 +1,17 @@
+===============================================================
+Gobuster v3.2.0-dev
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:             http://metapress.htb
+[+] Method:          GET
+[+] Threads:         10
+[+] Wordlist:        /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt
+[+] User Agent:      gobuster/3.2.0-dev
+[+] Timeout:         10s
+[+] Append Domain:   false
+===============================================================
+2022/10/29 22:53:28 Starting gobuster in VHOST enumeration mode
+===============================================================
+===============================================================
+2022/10/29 22:58:16 Finished
+===============================================================

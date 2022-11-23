@@ -1,0 +1,22 @@
+# Nmap 7.93 scan initiated Tue Nov  8 04:31:59 2022 as: nmap -sV -sC -v -oN scan.nmap --min-rate=5000 10.10.10.150
+Nmap scan report for 10.10.10.150
+Host is up (0.11s latency).
+Not shown: 922 filtered tcp ports (no-response), 76 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 8ad169b490203ea7b65401eb68303aca (RSA)
+|   256 9f0bc2b20bad8fa14e0bf63379effb43 (ECDSA)
+|_  256 c12a3544300c5b566a3fa5cc6466d9a9 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-favicon: Unknown favicon MD5: 1194D7D32448E1F90741A97B42AF91FA
+|_http-title: Home
+|_http-generator: Joomla! - Open Source Content Management
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov  8 04:32:18 2022 -- 1 IP address (1 host up) scanned in 19.76 seconds

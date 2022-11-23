@@ -1,0 +1,16 @@
+Target: http://hat-valley.htb/FUZZ
+Total requests: 87664
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00269:  C=301     10 L	      16 W	    179 Ch	  "static"
+00549:  C=301     10 L	      16 W	    173 Ch	  "css"
+00954:  C=301     10 L	      16 W	    171 Ch	  "js"
+01022:  C=404     10 L	      15 W	    142 Ch	  "api"
+14327:  C=404     10 L	      15 W	    143 Ch	  "apis"
+29929:  C=404     10 L	      15 W	    146 Ch	  "apidocs"
+
+Total time: 0
+Processed Requests: 46493
+Filtered Requests: 46487
+Requests/sec.: 0

@@ -1,0 +1,34 @@
+# Nmap 7.93 scan initiated Sun Nov  6 13:53:56 2022 as: nmap -sV -sC -v -oN scan.nmap 10.129.246.79
+Nmap scan report for 10.129.246.79
+Host is up (0.096s latency).
+Not shown: 990 filtered tcp ports (no-response)
+PORT    STATE SERVICE       VERSION
+53/tcp  open  domain        Simple DNS Plus
+80/tcp  open  http          Apache httpd 2.4.52 ((Win64) OpenSSL/1.1.1m PHP/8.1.1)
+|_http-server-header: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1
+| http-methods: 
+|   Supported Methods: GET POST OPTIONS HEAD TRACE
+|_  Potentially risky methods: TRACE
+|_http-title: g0 Aviation
+88/tcp  open  kerberos-sec  Microsoft Windows Kerberos (server time: 2022-11-07 01:54:50Z)
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: flight.htb0., Site: Default-First-Site-Name)
+445/tcp open  microsoft-ds?
+464/tcp open  kpasswd5?
+593/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp open  tcpwrapped
+Service Info: Host: G0; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 7h00m30s
+| smb2-time: 
+|   date: 2022-11-07T01:54:59
+|_  start_date: N/A
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled and required
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov  6 13:55:09 2022 -- 1 IP address (1 host up) scanned in 72.33 seconds

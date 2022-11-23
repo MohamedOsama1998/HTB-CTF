@@ -1,0 +1,6 @@
+/js                  [36m (Status: 301)[0m [Size: 309][34m [--> http://10.10.11.116/js/][0m
+/css                 [36m (Status: 301)[0m [Size: 310][34m [--> http://10.10.11.116/css/][0m
+/config.php          [32m (Status: 200)[0m [Size: 0]
+/account.php         [32m (Status: 200)[0m [Size: 16]
+/index.php           [32m (Status: 200)[0m [Size: 16088]
+/server-status       [33m (Status: 403)[0m [Size: 277]

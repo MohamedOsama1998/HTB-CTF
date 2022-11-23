@@ -1,0 +1,29 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://photobomb.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/10/08 15:03:57 Starting gobuster in directory enumeration mode
+===============================================================
+/printer              (Status: 401) [Size: 188]
+/printers             (Status: 401) [Size: 188]
+/printerfriendly      (Status: 401) [Size: 188]
+/printer_friendly     (Status: 401) [Size: 188]
+/printer_icon         (Status: 401) [Size: 188]
+/printer-icon         (Status: 401) [Size: 188]
+/printer-friendly     (Status: 401) [Size: 188]
+/printerFriendly      (Status: 401) [Size: 188]
+/printersupplies      (Status: 401) [Size: 188]
+/printer1             (Status: 401) [Size: 188]
+/printer2             (Status: 401) [Size: 188]
+/printericon          (Status: 401) [Size: 188]
+===============================================================
+2022/10/08 15:21:02 Finished
+===============================================================
