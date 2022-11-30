@@ -1,0 +1,22 @@
+# Nmap 7.93 scan initiated Tue Nov 29 22:31:48 2022 as: nmap -sV -sC -v -oN enum/scan.nmap 10.10.11.140
+Increasing send delay for 10.10.11.140 from 0 to 5 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.11.140 from 5 to 10 due to 11 out of 19 dropped probes since last increase.
+Nmap scan report for 10.10.11.140
+Host is up (0.17s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 1281175a5ac9c600dbf0ed9364fd1e08 (RSA)
+|   256 b5e55953001896a6f842d8c7fb132049 (ECDSA)
+|_  256 05e9df71b59f25036bd0468d05454420 (ED25519)
+80/tcp open  http    Apache httpd
+|_http-server-header: Apache
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to http://artcorp.htb
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 29 22:32:31 2022 -- 1 IP address (1 host up) scanned in 43.57 seconds
