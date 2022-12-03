@@ -1,0 +1,30 @@
+# Nmap 7.93 scan initiated Sat Dec  3 01:51:02 2022 as: nmap -sV -sC -v -oN enum/scan.nmap 10.10.11.134
+Nmap scan report for 10.10.11.134
+Host is up (0.17s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 48add5b83a9fbcbef7e8201ef6bfdeae (RSA)
+|   256 b7896c0b20ed49b2c1867c2992741c1f (ECDSA)
+|_  256 18cd9d08a621a8b8b6f79f8d405154fb (ED25519)
+80/tcp   open  http    Apache httpd 2.4.41
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+| http-git: 
+|   10.10.11.134:80/.git/
+|     Git repository found!
+|     Repository description: Unnamed repository; edit this file 'description' to name the...
+|_    Last commit message: Updating Tracking API  # Please enter the commit message for...
+|_http-title: 403 Forbidden
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+5000/tcp open  http    Werkzeug httpd 2.0.2 (Python 3.8.10)
+| http-methods: 
+|_  Supported Methods: HEAD POST GET OPTIONS
+|_http-server-header: Werkzeug/2.0.2 Python/3.8.10
+|_http-title: Costume Shop
+Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  3 01:51:34 2022 -- 1 IP address (1 host up) scanned in 31.72 seconds
