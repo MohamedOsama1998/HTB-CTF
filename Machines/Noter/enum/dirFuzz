@@ -1,23 +1,0 @@
-===============================================================
-Gobuster v3.3
-by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
-===============================================================
-[+] Url:                     http://noter.htb:5000
-[+] Method:                  GET
-[+] Threads:                 10
-[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/raft-small-directories.txt
-[+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.3
-[+] Timeout:                 10s
-===============================================================
-2022/12/10 09:06:36 Starting gobuster in directory enumeration mode
-===============================================================
-[2K/logout               (Status: 302) [Size: 218] [--> http://noter.htb:5000/login]
-[2K/register             (Status: 200) [Size: 2642]
-[2K/login                (Status: 200) [Size: 1963]
-[2K/dashboard            (Status: 302) [Size: 218] [--> http://noter.htb:5000/login]
-[2K/notes                (Status: 302) [Size: 218] [--> http://noter.htb:5000/login]
-[2K/VIP                  (Status: 302) [Size: 218] [--> http://noter.htb:5000/login]
-===============================================================
-2022/12/10 09:14:10 Finished
-===============================================================
