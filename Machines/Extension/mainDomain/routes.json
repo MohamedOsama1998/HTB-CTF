@@ -1,0 +1,179 @@
+{
+  "url": "http://snippet.htb",
+  "port": null,
+  "defaults": {},
+  "routes": {
+    "ignition.healthCheck": {
+      "uri": "_ignition/health-check",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "ignition.executeSolution": {
+      "uri": "_ignition/execute-solution",
+      "methods": [
+        "POST"
+      ]
+    },
+    "ignition.shareReport": {
+      "uri": "_ignition/share-report",
+      "methods": [
+        "POST"
+      ]
+    },
+    "ignition.scripts": {
+      "uri": "_ignition/scripts/{script}",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "ignition.styles": {
+      "uri": "_ignition/styles/{style}",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "dashboard": {
+      "uri": "dashboard",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "users": {
+      "uri": "users",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "snippets": {
+      "uri": "snippets",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "snippets.view": {
+      "uri": "snippets/{id}",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "snippets.update": {
+      "uri": "snippets/update/{id}",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "api.snippets.update": {
+      "uri": "snippets/update/{id}",
+      "methods": [
+        "POST"
+      ]
+    },
+    "api.snippets.delete": {
+      "uri": "snippets/delete/{id}",
+      "methods": [
+        "DELETE"
+      ]
+    },
+    "snippets.new": {
+      "uri": "new",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "users.validate": {
+      "uri": "management/validate",
+      "methods": [
+        "POST"
+      ]
+    },
+    "admin.management.dump": {
+      "uri": "management/dump",
+      "methods": [
+        "POST"
+      ]
+    },
+    "register": {
+      "uri": "register",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "login": {
+      "uri": "login",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "password.request": {
+      "uri": "forgot-password",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "password.email": {
+      "uri": "forgot-password",
+      "methods": [
+        "POST"
+      ]
+    },
+    "password.reset": {
+      "uri": "reset-password/{token}",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "password.update": {
+      "uri": "reset-password",
+      "methods": [
+        "POST"
+      ]
+    },
+    "verification.notice": {
+      "uri": "verify-email",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "verification.verify": {
+      "uri": "verify-email/{id}/{hash}",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "verification.send": {
+      "uri": "email/verification-notification",
+      "methods": [
+        "POST"
+      ]
+    },
+    "password.confirm": {
+      "uri": "confirm-password",
+      "methods": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    "logout": {
+      "uri": "logout",
+      "methods": [
+        "POST"
+      ]
+    }
+  }
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "Containers": -1,
+    "Created": 1656086146,
+    "Id": "sha256:b97d15b16a2172a201a80266877a65a44b0d7fa31c29531c20cdcc8e98c2d227",
+    "Labels": {
+      "io.webdevops.layout": "8",
+      "io.webdevops.version": "1.5.0",
+      "maintainer": "info@webdevops.io",
+      "vendor": "WebDevOps.io"
+    },
+    "ParentId": "sha256:762bfd88e0120a1018e9a4ccbe56d654c27418c7183ff4a817346fd2ac8b69af",
+    "RepoDigests": null,
+    "RepoTags": [
+      "laravel-app_main:latest"
+    ],
+    "SharedSize": -1,
+    "Size": 1975239137,
+    "VirtualSize": 1975239137
+  },
+  {
+    "Containers": -1,
+    "Created": 1655515586,
+    "Id": "sha256:ca37554c31eb2513cf4b1295d854589124f8740368842be843d2b4324edd4b8e",
+    "Labels": {
+      "io.webdevops.layout": "8",
+      "io.webdevops.version": "1.5.0",
+      "maintainer": "info@webdevops.io",
+      "vendor": "WebDevOps.io"
+    },
+    "ParentId": "",
+    "RepoDigests": null,
+    "RepoTags": [
+      "webdevops/php-apache:7.4"
+    ],
+    "SharedSize": -1,
+    "Size": 1028279761,
+    "VirtualSize": 1028279761
+  },
+  {
+    "Containers": -1,
+    "Created": 1640902141,
+    "Id": "sha256:6af04a6ff8d579dc4fc49c3f3afcaef2b9f879a50d8b8a996db2ebe88b3983ce",
+    "Labels": {
+      "maintainer": "Thomas Bruederli <thomas@roundcube.net>"
+    },
+    "ParentId": "",
+    "RepoDigests": [
+      "roundcube/roundcubemail@sha256:f5b054716e2fdf06f4c5dbee70bc6e056b831ca94508ba0fc1fcedc8c00c5194"
+    ],
+    "RepoTags": [
+      "roundcube/roundcubemail:latest"
+    ],
+    "SharedSize": -1,
+    "Size": 612284073,
+    "VirtualSize": 612284073
+  },
+  {
+    "Containers": -1,
+    "Created": 1640805761,
+    "Id": "sha256:c99e357e6daee694f9f431fcc905b130f7a246d8c172841820042983ff8df705",
+    "Labels": null,
+    "ParentId": "",
+    "RepoDigests": [
+      "composer@sha256:5e0407cda029cea056de126ea1199f351489e5835ea092cf2edd1d23ca183656"
+    ],
+    "RepoTags": [
+      "composer:latest"
+    ],
+    "SharedSize": -1,
+    "Size": 193476514,
+    "VirtualSize": 193476514
+  },
+  {
+    "Containers": -1,
+    "Created": 1640297121,
+    "Id": "sha256:cec4e9432becb39dfc2b911686d8d673b8255fdee4a501fbc1bda87473fb479d",
+    "Labels": {
+      "org.opencontainers.image.authors": "The Docker Mailserver Organization on GitHub",
+      "org.opencontainers.image.description": "A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.). Only configuration files, no SQL database.",                                                                                                                                             
+      "org.opencontainers.image.documentation": "https://github.com/docker-mailserver/docker-mailserver/blob/master/README.md",
+      "org.opencontainers.image.licenses": "MIT",
+      "org.opencontainers.image.revision": "061bae6cbfb21c91e4d2c4638d5900ec6bee2802",
+      "org.opencontainers.image.source": "https://github.com/docker-mailserver/docker-mailserver",
+      "org.opencontainers.image.title": "docker-mailserver",
+      "org.opencontainers.image.url": "https://github.com/docker-mailserver",
+      "org.opencontainers.image.vendor": "The Docker Mailserver Organization",
+      "org.opencontainers.image.version": "refs/tags/v10.4.0"
+    },
+    "ParentId": "",
+    "RepoDigests": [
+      "mailserver/docker-mailserver@sha256:80d4cff01d4109428c06b33ae8c8af89ebebc689f1fe8c5ed4987b803ee6fa35"
+    ],
+    "RepoTags": [
+      "mailserver/docker-mailserver:latest"
+    ],
+    "SharedSize": -1,
+    "Size": 560264926,
+    "VirtualSize": 560264926
+  },
+  {
+    "Containers": -1,
+    "Created": 1640059378,
+    "Id": "sha256:badd93b4fdf82c3fc9f2c6bc12c15da84b7635dc14543be0c1e79f98410f4060",
+    "Labels": {
+      "maintainer": "maintainers@gitea.io",
+      "org.opencontainers.image.created": "2021-12-21T03:59:32Z",
+      "org.opencontainers.image.revision": "877040e6521e48c363cfe461746235dce4ab822b",
+      "org.opencontainers.image.source": "https://github.com/go-gitea/gitea.git",
+      "org.opencontainers.image.url": "https://github.com/go-gitea/gitea"
+    },
+    "ParentId": "",
+    "RepoDigests": [
+      "gitea/gitea@sha256:eafb7459a4a86a0b7da7bfde9ef0726fa0fb64657db3ba2ac590fec0eb4cdd0c"
+    ],
+    "RepoTags": [
+      "gitea/gitea:1.15.8"
+    ],
+    "SharedSize": -1,
+    "Size": 148275092,
+    "VirtualSize": 148275092
+  },
+  {
+    "Containers": -1,
+    "Created": 1640055479,
+    "Id": "sha256:dd3b2a5dcb48ff61113592ed5ddd762581be4387c7bc552375a2159422aa6bf5",
+    "Labels": null,
+    "ParentId": "",
+    "RepoDigests": [
+      "mysql@sha256:20575ecebe6216036d25dab5903808211f1e9ba63dc7825ac20cb975e34cfcae"
+    ],
+    "RepoTags": [
+      "mysql:5.6"
+    ],
+    "SharedSize": -1,
+    "Size": 302527523,
+    "VirtualSize": 302527523
+  },
+  {
+    "Containers": -1,
+    "Created": 1639694686,
+    "Id": "sha256:0f7cb85ed8af5c33c1ca00367e4b1e4bfae6ec424f52bb04850af73fb19831d7",
+    "Labels": null,
+    "ParentId": "",
+    "RepoDigests": [
+      "php@sha256:6eb4c063a055e144f4de1426b82526f60d393823cb017add32fb85d79f25b62b"
+    ],
+    "RepoTags": [
+      "php:7.4-fpm-alpine"
+    ],
+    "SharedSize": -1,
+    "Size": 82510913,
+    "VirtualSize": 82510913
+  }
+]

@@ -1,0 +1,22 @@
+# Nmap 7.93 scan initiated Wed Dec 14 08:54:39 2022 as: nmap -sV -sC -v -oN enum/scan.nmap 10.10.11.171
+Increasing send delay for 10.10.11.171 from 10 to 20 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for 10.10.11.171
+Host is up (0.15s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 8221e2a5824ddf3f99db3ed9b3265286 (RSA)
+|   256 913ab2922b637d91f1582b1b54f9703c (ECDSA)
+|_  256 6520392ba73b33e5ed49a9acea01bd37 (ED25519)
+80/tcp open  http    nginx 1.14.0 (Ubuntu)
+|_http-title: snippet.htb
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Dec 14 08:55:17 2022 -- 1 IP address (1 host up) scanned in 37.41 seconds

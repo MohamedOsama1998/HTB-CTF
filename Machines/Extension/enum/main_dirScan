@@ -1,0 +1,13 @@
+/js                  [36m (Status: 301)[0m [Size: 307][34m [--> http://snippet.htb/js/][0m
+/images              [36m (Status: 301)[0m [Size: 311][34m [--> http://snippet.htb/images/][0m
+/css                 [36m (Status: 301)[0m [Size: 308][34m [--> http://snippet.htb/css/][0m
+/logout              [33m (Status: 405)[0m [Size: 825]
+/login               [32m (Status: 200)[0m [Size: 37797]
+/register            [32m (Status: 200)[0m [Size: 37745]
+/users               [36m (Status: 302)[0m [Size: 342][34m [--> http://snippet.htb/login][0m
+/new                 [36m (Status: 302)[0m [Size: 342][34m [--> http://snippet.htb/login][0m
+/snippets            [36m (Status: 302)[0m [Size: 342][34m [--> http://snippet.htb/login][0m
+/dashboard           [36m (Status: 302)[0m [Size: 342][34m [--> http://snippet.htb/login][0m
+/forgot-password     [32m (Status: 200)[0m [Size: 37782]
+/server-status       [33m (Status: 403)[0m [Size: 276]
+/reset-password      [33m (Status: 405)[0m [Size: 825]
