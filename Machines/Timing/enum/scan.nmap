@@ -1,0 +1,26 @@
+# Nmap 7.93 scan initiated Sat Dec 24 21:53:43 2022 as: nmap -sV -sC -v -oN enum/scan.nmap 10.10.11.135
+Increasing send delay for 10.10.11.135 from 10 to 20 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for 10.10.11.135
+Host is up (0.18s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 d25c40d7c9feffa883c36ecd6011d2eb (RSA)
+|   256 18c9f7b92736a116592335843431b3ad (ECDSA)
+|_  256 a22deedb4ebff93f8bd4cfb412d820f2 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-title: Simple WebApp
+|_Requested resource was ./login.php
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec 24 21:54:25 2022 -- 1 IP address (1 host up) scanned in 42.32 seconds
