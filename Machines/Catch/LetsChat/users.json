@@ -1,0 +1,51 @@
+[
+  {
+    "id": "61b86aead984e2451036eb16",
+    "firstName": "Administrator",
+    "lastName": "NA",
+    "username": "admin",
+    "displayName": "Admin",
+    "avatar": "e2b5310ec47bba317c5f1b5889e96f04",
+    "openRooms": [
+      "61b86b28d984e2451036eb17",
+      "61b86b3fd984e2451036eb18",
+      "61b8708efe190b466d476bfb"
+    ]
+  },
+  {
+    "id": "61b86dbdfe190b466d476bf0",
+    "firstName": "John",
+    "lastName": "Smith",
+    "username": "john",
+    "displayName": "John",
+    "avatar": "f5504305b704452bba9c94e228f271c4",
+    "openRooms": [
+      "61b86b3fd984e2451036eb18",
+      "61b86b28d984e2451036eb17"
+    ]
+  },
+  {
+    "id": "61b86e40fe190b466d476bf2",
+    "firstName": "Will",
+    "lastName": "Robinson",
+    "username": "will",
+    "displayName": "Will",
+    "avatar": "7c6143461e935a67981cc292e53c58fc",
+    "openRooms": [
+      "61b86b3fd984e2451036eb18",
+      "61b86b28d984e2451036eb17"
+    ]
+  },
+  {
+    "id": "61b86f15fe190b466d476bf5",
+    "firstName": "Lucas",
+    "lastName": "NA",
+    "username": "lucas",
+    "displayName": "Lucas",
+    "avatar": "b36396794553376673623dc0f6dec9bb",
+    "openRooms": [
+      "61b86b28d984e2451036eb17",
+      "61b86b3fd984e2451036eb18"
+    ]
+  }
+]

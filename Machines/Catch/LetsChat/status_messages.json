@@ -1,0 +1,72 @@
+[
+  {
+    "id": "61b8732cfe190b466d476c02",
+    "text": "ah sure!",
+    "posted": "2021-12-14T10:34:20.749Z",
+    "owner": "61b86dbdfe190b466d476bf0",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b8731ffe190b466d476c01",
+    "text": "You should actually include this task to your list as well as a part of quarterly audit",
+    "posted": "2021-12-14T10:34:07.449Z",
+    "owner": "61b86aead984e2451036eb16",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b872b9fe190b466d476c00",
+    "text": "Also make sure we've our systems, applications and databases up-to-date.",
+    "posted": "2021-12-14T10:32:25.514Z",
+    "owner": "61b86dbdfe190b466d476bf0",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b87282fe190b466d476bff",
+    "text": "Excellent! ",
+    "posted": "2021-12-14T10:31:30.403Z",
+    "owner": "61b86aead984e2451036eb16",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b87277fe190b466d476bfe",
+    "text": "Why not. We've this in our todo list for next quarter",
+    "posted": "2021-12-14T10:31:19.094Z",
+    "owner": "61b86dbdfe190b466d476bf0",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b87241fe190b466d476bfd",
+    "text": "@john is it possible to add SSL to our status domain to make sure everything is secure ? ",
+    "posted": "2021-12-14T10:30:25.108Z",
+    "owner": "61b86aead984e2451036eb16",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b8702dfe190b466d476bfa",
+    "text": "Here are the credentials `john :  E}V!mywu_69T4C}W`",
+    "posted": "2021-12-14T10:21:33.859Z",
+    "owner": "61b86f15fe190b466d476bf5",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b87010fe190b466d476bf9",
+    "text": "Sure one sec.",
+    "posted": "2021-12-14T10:21:04.635Z",
+    "owner": "61b86f15fe190b466d476bf5",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b86fb1fe190b466d476bf8",
+    "text": "Can you create an account for me ? ",
+    "posted": "2021-12-14T10:19:29.677Z",
+    "owner": "61b86dbdfe190b466d476bf0",
+    "room": "61b86b28d984e2451036eb17"
+  },
+  {
+    "id": "61b86f4dfe190b466d476bf6",
+    "text": "Hey Team! I'll be handling the `status.catch.htb` from now on. Lemme know if you need anything from me. ",
+    "posted": "2021-12-14T10:17:49.761Z",
+    "owner": "61b86f15fe190b466d476bf5",
+    "room": "61b86b28d984e2451036eb17"
+  }
+]

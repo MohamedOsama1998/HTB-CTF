@@ -1,0 +1,26 @@
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.7.2
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://catch.htb
+ 🚀  Threads               │ 50
+ 📖  Wordlist              │ /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt
+ 👌  Status Codes          │ [200, 204, 301, 302, 307, 308, 401, 403, 405, 500]
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.7.2
+ 💉  Config File           │ /etc/feroxbuster/ferox-config.toml
+ 💲  Extensions            │ [php]
+ 🏦  Collect Backups       │ true
+ 🏁  HTTP methods          │ [GET]
+ 🚫  Do Not Recurse        │ true
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Management Menu™
+──────────────────────────────────────────────────
+200      GET      374l      602w     6163c http://catch.htb/
+403      GET        9l       28w      274c http://catch.htb/.php
+301      GET        9l       28w      311c http://catch.htb/javascript => http://catch.htb/javascript/
+200      GET      374l      602w     6163c http://catch.htb/index.php
+403      GET        9l       28w      274c http://catch.htb/server-status
+[####################] - 1m     60025/60025   0s      found:5       errors:1      
+[####################] - 1m     60000/60000   575/s   http://catch.htb/
