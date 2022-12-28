@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Mon Dec  5 05:40:05 2022 as: nmap -sV -sC -v -oN scan.nmap 10.129.228.37
+Increasing send delay for 10.129.228.37 from 0 to 5 due to 46 out of 153 dropped probes since last increase.
+Nmap scan report for 10.129.228.37
+Host is up (0.14s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT    STATE SERVICE VERSION
+873/tcp open  rsync   (protocol version 31)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec  5 05:40:33 2022 -- 1 IP address (1 host up) scanned in 28.17 seconds

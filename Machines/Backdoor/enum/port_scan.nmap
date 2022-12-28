@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Thu Dec  8 09:12:57 2022 as: nmap -v -p1-10000 -oN enum/port_scan.nmap -Pn 10.10.11.125
+Nmap scan report for backdoor.htb (10.10.11.125)
+Host is up (0.15s latency).
+Not shown: 9997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+1337/tcp open  waste
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Dec  8 09:14:21 2022 -- 1 IP address (1 host up) scanned in 84.37 seconds

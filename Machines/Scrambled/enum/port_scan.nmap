@@ -1,0 +1,15 @@
+# Nmap 7.93 scan initiated Sun Dec  4 06:53:51 2022 as: nmap -v -p- -oN enum/port_scan.nmap -Pn --min-rate=5000 10.10.11.168
+Increasing send delay for 10.10.11.168 from 0 to 5 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 10.10.11.168 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for 10.10.11.168
+Host is up (0.096s latency).
+Not shown: 65530 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Dec  4 06:54:37 2022 -- 1 IP address (1 host up) scanned in 45.94 seconds

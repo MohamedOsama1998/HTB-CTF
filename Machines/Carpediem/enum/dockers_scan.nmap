@@ -1,0 +1,1 @@
+# Nmap 7.93 scan initiated Wed Nov 23 13:55:32 2022 as: nmap -v -oN enum/dockers_scan.nmap -p21,22,80,3306,27017 -Pn 172.17.0.1-10

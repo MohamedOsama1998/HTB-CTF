@@ -1,0 +1,10 @@
+# Nmap 7.93 scan initiated Fri Nov 25 14:48:53 2022 as: nmap -v -p- --min-rate=1000 -oN enum/port_scan.nmap -Pn 10.10.11.190
+Nmap scan report for derailed.htb (10.10.11.190)
+Host is up (0.068s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3000/tcp open  ppp
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Nov 25 14:50:35 2022 -- 1 IP address (1 host up) scanned in 101.75 seconds
