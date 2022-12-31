@@ -1,0 +1,21 @@
+ ___  ___  __   __     __      __         __   ___
+|__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
+|    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
+by Ben "epi" Risher 🤓                 ver: 2.3.3
+───────────────────────────┬──────────────────────
+ 🎯  Target Url            │ http://devzat.htb
+ 🚀  Threads               │ 50
+ 📖  Wordlist              │ /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt
+ 👌  Status Codes          │ [200, 204, 301, 302, 307, 308, 401, 403, 405, 500]
+ 💥  Timeout (secs)        │ 7
+ 🦡  User-Agent            │ feroxbuster/2.3.3
+ 💉  Config File           │ /etc/feroxbuster/ferox-config.toml
+ 🚫  Do Not Recurse        │ true
+ 🎉  New Version Available │ https://github.com/epi052/feroxbuster/releases/latest
+───────────────────────────┴──────────────────────
+ 🏁  Press [ENTER] to use the Scan Cancel Menu™
+──────────────────────────────────────────────────
+301        9l       28w      309c http://devzat.htb/images
+301        9l       28w      309c http://devzat.htb/assets
+301        9l       28w      313c http://devzat.htb/javascript
+403        9l       28w      275c http://devzat.htb/server-status
